@@ -1,0 +1,1035 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+Sex.id,Id
+Sex.display-label,Sex
+2010Census_age999,"April 1, 2010 - Census; Total"
+estbase42010_age999,"April 1, 2010 - Estimates Base; Total"
+est72010_age999,Population Estimate (as of July 1) - 2010; Total
+est72011_age999,Population Estimate (as of July 1) - 2011; Total
+est72012_age999,Population Estimate (as of July 1) - 2012; Total
+est72013_age999,Population Estimate (as of July 1) - 2013; Total
+est72014_age999,Population Estimate (as of July 1) - 2014; Total
+est72015_age999,Population Estimate (as of July 1) - 2015; Total
+est72016_age999,Population Estimate (as of July 1) - 2016; Total
+est72017_age999,Population Estimate (as of July 1) - 2017; Total
+2010Census_age0,"April 1, 2010 - Census; Total - 0"
+estbase42010_age0,"April 1, 2010 - Estimates Base; Total - 0"
+est72010_age0,Population Estimate (as of July 1) - 2010; Total - 0
+est72011_age0,Population Estimate (as of July 1) - 2011; Total - 0
+est72012_age0,Population Estimate (as of July 1) - 2012; Total - 0
+est72013_age0,Population Estimate (as of July 1) - 2013; Total - 0
+est72014_age0,Population Estimate (as of July 1) - 2014; Total - 0
+est72015_age0,Population Estimate (as of July 1) - 2015; Total - 0
+est72016_age0,Population Estimate (as of July 1) - 2016; Total - 0
+est72017_age0,Population Estimate (as of July 1) - 2017; Total - 0
+2010Census_age1,"April 1, 2010 - Census; Total - 1"
+estbase42010_age1,"April 1, 2010 - Estimates Base; Total - 1"
+est72010_age1,Population Estimate (as of July 1) - 2010; Total - 1
+est72011_age1,Population Estimate (as of July 1) - 2011; Total - 1
+est72012_age1,Population Estimate (as of July 1) - 2012; Total - 1
+est72013_age1,Population Estimate (as of July 1) - 2013; Total - 1
+est72014_age1,Population Estimate (as of July 1) - 2014; Total - 1
+est72015_age1,Population Estimate (as of July 1) - 2015; Total - 1
+est72016_age1,Population Estimate (as of July 1) - 2016; Total - 1
+est72017_age1,Population Estimate (as of July 1) - 2017; Total - 1
+2010Census_age2,"April 1, 2010 - Census; Total - 2"
+estbase42010_age2,"April 1, 2010 - Estimates Base; Total - 2"
+est72010_age2,Population Estimate (as of July 1) - 2010; Total - 2
+est72011_age2,Population Estimate (as of July 1) - 2011; Total - 2
+est72012_age2,Population Estimate (as of July 1) - 2012; Total - 2
+est72013_age2,Population Estimate (as of July 1) - 2013; Total - 2
+est72014_age2,Population Estimate (as of July 1) - 2014; Total - 2
+est72015_age2,Population Estimate (as of July 1) - 2015; Total - 2
+est72016_age2,Population Estimate (as of July 1) - 2016; Total - 2
+est72017_age2,Population Estimate (as of July 1) - 2017; Total - 2
+2010Census_age3,"April 1, 2010 - Census; Total - 3"
+estbase42010_age3,"April 1, 2010 - Estimates Base; Total - 3"
+est72010_age3,Population Estimate (as of July 1) - 2010; Total - 3
+est72011_age3,Population Estimate (as of July 1) - 2011; Total - 3
+est72012_age3,Population Estimate (as of July 1) - 2012; Total - 3
+est72013_age3,Population Estimate (as of July 1) - 2013; Total - 3
+est72014_age3,Population Estimate (as of July 1) - 2014; Total - 3
+est72015_age3,Population Estimate (as of July 1) - 2015; Total - 3
+est72016_age3,Population Estimate (as of July 1) - 2016; Total - 3
+est72017_age3,Population Estimate (as of July 1) - 2017; Total - 3
+2010Census_age4,"April 1, 2010 - Census; Total - 4"
+estbase42010_age4,"April 1, 2010 - Estimates Base; Total - 4"
+est72010_age4,Population Estimate (as of July 1) - 2010; Total - 4
+est72011_age4,Population Estimate (as of July 1) - 2011; Total - 4
+est72012_age4,Population Estimate (as of July 1) - 2012; Total - 4
+est72013_age4,Population Estimate (as of July 1) - 2013; Total - 4
+est72014_age4,Population Estimate (as of July 1) - 2014; Total - 4
+est72015_age4,Population Estimate (as of July 1) - 2015; Total - 4
+est72016_age4,Population Estimate (as of July 1) - 2016; Total - 4
+est72017_age4,Population Estimate (as of July 1) - 2017; Total - 4
+2010Census_age5,"April 1, 2010 - Census; Total - 5"
+estbase42010_age5,"April 1, 2010 - Estimates Base; Total - 5"
+est72010_age5,Population Estimate (as of July 1) - 2010; Total - 5
+est72011_age5,Population Estimate (as of July 1) - 2011; Total - 5
+est72012_age5,Population Estimate (as of July 1) - 2012; Total - 5
+est72013_age5,Population Estimate (as of July 1) - 2013; Total - 5
+est72014_age5,Population Estimate (as of July 1) - 2014; Total - 5
+est72015_age5,Population Estimate (as of July 1) - 2015; Total - 5
+est72016_age5,Population Estimate (as of July 1) - 2016; Total - 5
+est72017_age5,Population Estimate (as of July 1) - 2017; Total - 5
+2010Census_age6,"April 1, 2010 - Census; Total - 6"
+estbase42010_age6,"April 1, 2010 - Estimates Base; Total - 6"
+est72010_age6,Population Estimate (as of July 1) - 2010; Total - 6
+est72011_age6,Population Estimate (as of July 1) - 2011; Total - 6
+est72012_age6,Population Estimate (as of July 1) - 2012; Total - 6
+est72013_age6,Population Estimate (as of July 1) - 2013; Total - 6
+est72014_age6,Population Estimate (as of July 1) - 2014; Total - 6
+est72015_age6,Population Estimate (as of July 1) - 2015; Total - 6
+est72016_age6,Population Estimate (as of July 1) - 2016; Total - 6
+est72017_age6,Population Estimate (as of July 1) - 2017; Total - 6
+2010Census_age7,"April 1, 2010 - Census; Total - 7"
+estbase42010_age7,"April 1, 2010 - Estimates Base; Total - 7"
+est72010_age7,Population Estimate (as of July 1) - 2010; Total - 7
+est72011_age7,Population Estimate (as of July 1) - 2011; Total - 7
+est72012_age7,Population Estimate (as of July 1) - 2012; Total - 7
+est72013_age7,Population Estimate (as of July 1) - 2013; Total - 7
+est72014_age7,Population Estimate (as of July 1) - 2014; Total - 7
+est72015_age7,Population Estimate (as of July 1) - 2015; Total - 7
+est72016_age7,Population Estimate (as of July 1) - 2016; Total - 7
+est72017_age7,Population Estimate (as of July 1) - 2017; Total - 7
+2010Census_age8,"April 1, 2010 - Census; Total - 8"
+estbase42010_age8,"April 1, 2010 - Estimates Base; Total - 8"
+est72010_age8,Population Estimate (as of July 1) - 2010; Total - 8
+est72011_age8,Population Estimate (as of July 1) - 2011; Total - 8
+est72012_age8,Population Estimate (as of July 1) - 2012; Total - 8
+est72013_age8,Population Estimate (as of July 1) - 2013; Total - 8
+est72014_age8,Population Estimate (as of July 1) - 2014; Total - 8
+est72015_age8,Population Estimate (as of July 1) - 2015; Total - 8
+est72016_age8,Population Estimate (as of July 1) - 2016; Total - 8
+est72017_age8,Population Estimate (as of July 1) - 2017; Total - 8
+2010Census_age9,"April 1, 2010 - Census; Total - 9"
+estbase42010_age9,"April 1, 2010 - Estimates Base; Total - 9"
+est72010_age9,Population Estimate (as of July 1) - 2010; Total - 9
+est72011_age9,Population Estimate (as of July 1) - 2011; Total - 9
+est72012_age9,Population Estimate (as of July 1) - 2012; Total - 9
+est72013_age9,Population Estimate (as of July 1) - 2013; Total - 9
+est72014_age9,Population Estimate (as of July 1) - 2014; Total - 9
+est72015_age9,Population Estimate (as of July 1) - 2015; Total - 9
+est72016_age9,Population Estimate (as of July 1) - 2016; Total - 9
+est72017_age9,Population Estimate (as of July 1) - 2017; Total - 9
+2010Census_age10,"April 1, 2010 - Census; Total - 10"
+estbase42010_age10,"April 1, 2010 - Estimates Base; Total - 10"
+est72010_age10,Population Estimate (as of July 1) - 2010; Total - 10
+est72011_age10,Population Estimate (as of July 1) - 2011; Total - 10
+est72012_age10,Population Estimate (as of July 1) - 2012; Total - 10
+est72013_age10,Population Estimate (as of July 1) - 2013; Total - 10
+est72014_age10,Population Estimate (as of July 1) - 2014; Total - 10
+est72015_age10,Population Estimate (as of July 1) - 2015; Total - 10
+est72016_age10,Population Estimate (as of July 1) - 2016; Total - 10
+est72017_age10,Population Estimate (as of July 1) - 2017; Total - 10
+2010Census_age11,"April 1, 2010 - Census; Total - 11"
+estbase42010_age11,"April 1, 2010 - Estimates Base; Total - 11"
+est72010_age11,Population Estimate (as of July 1) - 2010; Total - 11
+est72011_age11,Population Estimate (as of July 1) - 2011; Total - 11
+est72012_age11,Population Estimate (as of July 1) - 2012; Total - 11
+est72013_age11,Population Estimate (as of July 1) - 2013; Total - 11
+est72014_age11,Population Estimate (as of July 1) - 2014; Total - 11
+est72015_age11,Population Estimate (as of July 1) - 2015; Total - 11
+est72016_age11,Population Estimate (as of July 1) - 2016; Total - 11
+est72017_age11,Population Estimate (as of July 1) - 2017; Total - 11
+2010Census_age12,"April 1, 2010 - Census; Total - 12"
+estbase42010_age12,"April 1, 2010 - Estimates Base; Total - 12"
+est72010_age12,Population Estimate (as of July 1) - 2010; Total - 12
+est72011_age12,Population Estimate (as of July 1) - 2011; Total - 12
+est72012_age12,Population Estimate (as of July 1) - 2012; Total - 12
+est72013_age12,Population Estimate (as of July 1) - 2013; Total - 12
+est72014_age12,Population Estimate (as of July 1) - 2014; Total - 12
+est72015_age12,Population Estimate (as of July 1) - 2015; Total - 12
+est72016_age12,Population Estimate (as of July 1) - 2016; Total - 12
+est72017_age12,Population Estimate (as of July 1) - 2017; Total - 12
+2010Census_age13,"April 1, 2010 - Census; Total - 13"
+estbase42010_age13,"April 1, 2010 - Estimates Base; Total - 13"
+est72010_age13,Population Estimate (as of July 1) - 2010; Total - 13
+est72011_age13,Population Estimate (as of July 1) - 2011; Total - 13
+est72012_age13,Population Estimate (as of July 1) - 2012; Total - 13
+est72013_age13,Population Estimate (as of July 1) - 2013; Total - 13
+est72014_age13,Population Estimate (as of July 1) - 2014; Total - 13
+est72015_age13,Population Estimate (as of July 1) - 2015; Total - 13
+est72016_age13,Population Estimate (as of July 1) - 2016; Total - 13
+est72017_age13,Population Estimate (as of July 1) - 2017; Total - 13
+2010Census_age14,"April 1, 2010 - Census; Total - 14"
+estbase42010_age14,"April 1, 2010 - Estimates Base; Total - 14"
+est72010_age14,Population Estimate (as of July 1) - 2010; Total - 14
+est72011_age14,Population Estimate (as of July 1) - 2011; Total - 14
+est72012_age14,Population Estimate (as of July 1) - 2012; Total - 14
+est72013_age14,Population Estimate (as of July 1) - 2013; Total - 14
+est72014_age14,Population Estimate (as of July 1) - 2014; Total - 14
+est72015_age14,Population Estimate (as of July 1) - 2015; Total - 14
+est72016_age14,Population Estimate (as of July 1) - 2016; Total - 14
+est72017_age14,Population Estimate (as of July 1) - 2017; Total - 14
+2010Census_age15,"April 1, 2010 - Census; Total - 15"
+estbase42010_age15,"April 1, 2010 - Estimates Base; Total - 15"
+est72010_age15,Population Estimate (as of July 1) - 2010; Total - 15
+est72011_age15,Population Estimate (as of July 1) - 2011; Total - 15
+est72012_age15,Population Estimate (as of July 1) - 2012; Total - 15
+est72013_age15,Population Estimate (as of July 1) - 2013; Total - 15
+est72014_age15,Population Estimate (as of July 1) - 2014; Total - 15
+est72015_age15,Population Estimate (as of July 1) - 2015; Total - 15
+est72016_age15,Population Estimate (as of July 1) - 2016; Total - 15
+est72017_age15,Population Estimate (as of July 1) - 2017; Total - 15
+2010Census_age16,"April 1, 2010 - Census; Total - 16"
+estbase42010_age16,"April 1, 2010 - Estimates Base; Total - 16"
+est72010_age16,Population Estimate (as of July 1) - 2010; Total - 16
+est72011_age16,Population Estimate (as of July 1) - 2011; Total - 16
+est72012_age16,Population Estimate (as of July 1) - 2012; Total - 16
+est72013_age16,Population Estimate (as of July 1) - 2013; Total - 16
+est72014_age16,Population Estimate (as of July 1) - 2014; Total - 16
+est72015_age16,Population Estimate (as of July 1) - 2015; Total - 16
+est72016_age16,Population Estimate (as of July 1) - 2016; Total - 16
+est72017_age16,Population Estimate (as of July 1) - 2017; Total - 16
+2010Census_age17,"April 1, 2010 - Census; Total - 17"
+estbase42010_age17,"April 1, 2010 - Estimates Base; Total - 17"
+est72010_age17,Population Estimate (as of July 1) - 2010; Total - 17
+est72011_age17,Population Estimate (as of July 1) - 2011; Total - 17
+est72012_age17,Population Estimate (as of July 1) - 2012; Total - 17
+est72013_age17,Population Estimate (as of July 1) - 2013; Total - 17
+est72014_age17,Population Estimate (as of July 1) - 2014; Total - 17
+est72015_age17,Population Estimate (as of July 1) - 2015; Total - 17
+est72016_age17,Population Estimate (as of July 1) - 2016; Total - 17
+est72017_age17,Population Estimate (as of July 1) - 2017; Total - 17
+2010Census_age18,"April 1, 2010 - Census; Total - 18"
+estbase42010_age18,"April 1, 2010 - Estimates Base; Total - 18"
+est72010_age18,Population Estimate (as of July 1) - 2010; Total - 18
+est72011_age18,Population Estimate (as of July 1) - 2011; Total - 18
+est72012_age18,Population Estimate (as of July 1) - 2012; Total - 18
+est72013_age18,Population Estimate (as of July 1) - 2013; Total - 18
+est72014_age18,Population Estimate (as of July 1) - 2014; Total - 18
+est72015_age18,Population Estimate (as of July 1) - 2015; Total - 18
+est72016_age18,Population Estimate (as of July 1) - 2016; Total - 18
+est72017_age18,Population Estimate (as of July 1) - 2017; Total - 18
+2010Census_age19,"April 1, 2010 - Census; Total - 19"
+estbase42010_age19,"April 1, 2010 - Estimates Base; Total - 19"
+est72010_age19,Population Estimate (as of July 1) - 2010; Total - 19
+est72011_age19,Population Estimate (as of July 1) - 2011; Total - 19
+est72012_age19,Population Estimate (as of July 1) - 2012; Total - 19
+est72013_age19,Population Estimate (as of July 1) - 2013; Total - 19
+est72014_age19,Population Estimate (as of July 1) - 2014; Total - 19
+est72015_age19,Population Estimate (as of July 1) - 2015; Total - 19
+est72016_age19,Population Estimate (as of July 1) - 2016; Total - 19
+est72017_age19,Population Estimate (as of July 1) - 2017; Total - 19
+2010Census_age20,"April 1, 2010 - Census; Total - 20"
+estbase42010_age20,"April 1, 2010 - Estimates Base; Total - 20"
+est72010_age20,Population Estimate (as of July 1) - 2010; Total - 20
+est72011_age20,Population Estimate (as of July 1) - 2011; Total - 20
+est72012_age20,Population Estimate (as of July 1) - 2012; Total - 20
+est72013_age20,Population Estimate (as of July 1) - 2013; Total - 20
+est72014_age20,Population Estimate (as of July 1) - 2014; Total - 20
+est72015_age20,Population Estimate (as of July 1) - 2015; Total - 20
+est72016_age20,Population Estimate (as of July 1) - 2016; Total - 20
+est72017_age20,Population Estimate (as of July 1) - 2017; Total - 20
+2010Census_age21,"April 1, 2010 - Census; Total - 21"
+estbase42010_age21,"April 1, 2010 - Estimates Base; Total - 21"
+est72010_age21,Population Estimate (as of July 1) - 2010; Total - 21
+est72011_age21,Population Estimate (as of July 1) - 2011; Total - 21
+est72012_age21,Population Estimate (as of July 1) - 2012; Total - 21
+est72013_age21,Population Estimate (as of July 1) - 2013; Total - 21
+est72014_age21,Population Estimate (as of July 1) - 2014; Total - 21
+est72015_age21,Population Estimate (as of July 1) - 2015; Total - 21
+est72016_age21,Population Estimate (as of July 1) - 2016; Total - 21
+est72017_age21,Population Estimate (as of July 1) - 2017; Total - 21
+2010Census_age22,"April 1, 2010 - Census; Total - 22"
+estbase42010_age22,"April 1, 2010 - Estimates Base; Total - 22"
+est72010_age22,Population Estimate (as of July 1) - 2010; Total - 22
+est72011_age22,Population Estimate (as of July 1) - 2011; Total - 22
+est72012_age22,Population Estimate (as of July 1) - 2012; Total - 22
+est72013_age22,Population Estimate (as of July 1) - 2013; Total - 22
+est72014_age22,Population Estimate (as of July 1) - 2014; Total - 22
+est72015_age22,Population Estimate (as of July 1) - 2015; Total - 22
+est72016_age22,Population Estimate (as of July 1) - 2016; Total - 22
+est72017_age22,Population Estimate (as of July 1) - 2017; Total - 22
+2010Census_age23,"April 1, 2010 - Census; Total - 23"
+estbase42010_age23,"April 1, 2010 - Estimates Base; Total - 23"
+est72010_age23,Population Estimate (as of July 1) - 2010; Total - 23
+est72011_age23,Population Estimate (as of July 1) - 2011; Total - 23
+est72012_age23,Population Estimate (as of July 1) - 2012; Total - 23
+est72013_age23,Population Estimate (as of July 1) - 2013; Total - 23
+est72014_age23,Population Estimate (as of July 1) - 2014; Total - 23
+est72015_age23,Population Estimate (as of July 1) - 2015; Total - 23
+est72016_age23,Population Estimate (as of July 1) - 2016; Total - 23
+est72017_age23,Population Estimate (as of July 1) - 2017; Total - 23
+2010Census_age24,"April 1, 2010 - Census; Total - 24"
+estbase42010_age24,"April 1, 2010 - Estimates Base; Total - 24"
+est72010_age24,Population Estimate (as of July 1) - 2010; Total - 24
+est72011_age24,Population Estimate (as of July 1) - 2011; Total - 24
+est72012_age24,Population Estimate (as of July 1) - 2012; Total - 24
+est72013_age24,Population Estimate (as of July 1) - 2013; Total - 24
+est72014_age24,Population Estimate (as of July 1) - 2014; Total - 24
+est72015_age24,Population Estimate (as of July 1) - 2015; Total - 24
+est72016_age24,Population Estimate (as of July 1) - 2016; Total - 24
+est72017_age24,Population Estimate (as of July 1) - 2017; Total - 24
+2010Census_age25,"April 1, 2010 - Census; Total - 25"
+estbase42010_age25,"April 1, 2010 - Estimates Base; Total - 25"
+est72010_age25,Population Estimate (as of July 1) - 2010; Total - 25
+est72011_age25,Population Estimate (as of July 1) - 2011; Total - 25
+est72012_age25,Population Estimate (as of July 1) - 2012; Total - 25
+est72013_age25,Population Estimate (as of July 1) - 2013; Total - 25
+est72014_age25,Population Estimate (as of July 1) - 2014; Total - 25
+est72015_age25,Population Estimate (as of July 1) - 2015; Total - 25
+est72016_age25,Population Estimate (as of July 1) - 2016; Total - 25
+est72017_age25,Population Estimate (as of July 1) - 2017; Total - 25
+2010Census_age26,"April 1, 2010 - Census; Total - 26"
+estbase42010_age26,"April 1, 2010 - Estimates Base; Total - 26"
+est72010_age26,Population Estimate (as of July 1) - 2010; Total - 26
+est72011_age26,Population Estimate (as of July 1) - 2011; Total - 26
+est72012_age26,Population Estimate (as of July 1) - 2012; Total - 26
+est72013_age26,Population Estimate (as of July 1) - 2013; Total - 26
+est72014_age26,Population Estimate (as of July 1) - 2014; Total - 26
+est72015_age26,Population Estimate (as of July 1) - 2015; Total - 26
+est72016_age26,Population Estimate (as of July 1) - 2016; Total - 26
+est72017_age26,Population Estimate (as of July 1) - 2017; Total - 26
+2010Census_age27,"April 1, 2010 - Census; Total - 27"
+estbase42010_age27,"April 1, 2010 - Estimates Base; Total - 27"
+est72010_age27,Population Estimate (as of July 1) - 2010; Total - 27
+est72011_age27,Population Estimate (as of July 1) - 2011; Total - 27
+est72012_age27,Population Estimate (as of July 1) - 2012; Total - 27
+est72013_age27,Population Estimate (as of July 1) - 2013; Total - 27
+est72014_age27,Population Estimate (as of July 1) - 2014; Total - 27
+est72015_age27,Population Estimate (as of July 1) - 2015; Total - 27
+est72016_age27,Population Estimate (as of July 1) - 2016; Total - 27
+est72017_age27,Population Estimate (as of July 1) - 2017; Total - 27
+2010Census_age28,"April 1, 2010 - Census; Total - 28"
+estbase42010_age28,"April 1, 2010 - Estimates Base; Total - 28"
+est72010_age28,Population Estimate (as of July 1) - 2010; Total - 28
+est72011_age28,Population Estimate (as of July 1) - 2011; Total - 28
+est72012_age28,Population Estimate (as of July 1) - 2012; Total - 28
+est72013_age28,Population Estimate (as of July 1) - 2013; Total - 28
+est72014_age28,Population Estimate (as of July 1) - 2014; Total - 28
+est72015_age28,Population Estimate (as of July 1) - 2015; Total - 28
+est72016_age28,Population Estimate (as of July 1) - 2016; Total - 28
+est72017_age28,Population Estimate (as of July 1) - 2017; Total - 28
+2010Census_age29,"April 1, 2010 - Census; Total - 29"
+estbase42010_age29,"April 1, 2010 - Estimates Base; Total - 29"
+est72010_age29,Population Estimate (as of July 1) - 2010; Total - 29
+est72011_age29,Population Estimate (as of July 1) - 2011; Total - 29
+est72012_age29,Population Estimate (as of July 1) - 2012; Total - 29
+est72013_age29,Population Estimate (as of July 1) - 2013; Total - 29
+est72014_age29,Population Estimate (as of July 1) - 2014; Total - 29
+est72015_age29,Population Estimate (as of July 1) - 2015; Total - 29
+est72016_age29,Population Estimate (as of July 1) - 2016; Total - 29
+est72017_age29,Population Estimate (as of July 1) - 2017; Total - 29
+2010Census_age30,"April 1, 2010 - Census; Total - 30"
+estbase42010_age30,"April 1, 2010 - Estimates Base; Total - 30"
+est72010_age30,Population Estimate (as of July 1) - 2010; Total - 30
+est72011_age30,Population Estimate (as of July 1) - 2011; Total - 30
+est72012_age30,Population Estimate (as of July 1) - 2012; Total - 30
+est72013_age30,Population Estimate (as of July 1) - 2013; Total - 30
+est72014_age30,Population Estimate (as of July 1) - 2014; Total - 30
+est72015_age30,Population Estimate (as of July 1) - 2015; Total - 30
+est72016_age30,Population Estimate (as of July 1) - 2016; Total - 30
+est72017_age30,Population Estimate (as of July 1) - 2017; Total - 30
+2010Census_age31,"April 1, 2010 - Census; Total - 31"
+estbase42010_age31,"April 1, 2010 - Estimates Base; Total - 31"
+est72010_age31,Population Estimate (as of July 1) - 2010; Total - 31
+est72011_age31,Population Estimate (as of July 1) - 2011; Total - 31
+est72012_age31,Population Estimate (as of July 1) - 2012; Total - 31
+est72013_age31,Population Estimate (as of July 1) - 2013; Total - 31
+est72014_age31,Population Estimate (as of July 1) - 2014; Total - 31
+est72015_age31,Population Estimate (as of July 1) - 2015; Total - 31
+est72016_age31,Population Estimate (as of July 1) - 2016; Total - 31
+est72017_age31,Population Estimate (as of July 1) - 2017; Total - 31
+2010Census_age32,"April 1, 2010 - Census; Total - 32"
+estbase42010_age32,"April 1, 2010 - Estimates Base; Total - 32"
+est72010_age32,Population Estimate (as of July 1) - 2010; Total - 32
+est72011_age32,Population Estimate (as of July 1) - 2011; Total - 32
+est72012_age32,Population Estimate (as of July 1) - 2012; Total - 32
+est72013_age32,Population Estimate (as of July 1) - 2013; Total - 32
+est72014_age32,Population Estimate (as of July 1) - 2014; Total - 32
+est72015_age32,Population Estimate (as of July 1) - 2015; Total - 32
+est72016_age32,Population Estimate (as of July 1) - 2016; Total - 32
+est72017_age32,Population Estimate (as of July 1) - 2017; Total - 32
+2010Census_age33,"April 1, 2010 - Census; Total - 33"
+estbase42010_age33,"April 1, 2010 - Estimates Base; Total - 33"
+est72010_age33,Population Estimate (as of July 1) - 2010; Total - 33
+est72011_age33,Population Estimate (as of July 1) - 2011; Total - 33
+est72012_age33,Population Estimate (as of July 1) - 2012; Total - 33
+est72013_age33,Population Estimate (as of July 1) - 2013; Total - 33
+est72014_age33,Population Estimate (as of July 1) - 2014; Total - 33
+est72015_age33,Population Estimate (as of July 1) - 2015; Total - 33
+est72016_age33,Population Estimate (as of July 1) - 2016; Total - 33
+est72017_age33,Population Estimate (as of July 1) - 2017; Total - 33
+2010Census_age34,"April 1, 2010 - Census; Total - 34"
+estbase42010_age34,"April 1, 2010 - Estimates Base; Total - 34"
+est72010_age34,Population Estimate (as of July 1) - 2010; Total - 34
+est72011_age34,Population Estimate (as of July 1) - 2011; Total - 34
+est72012_age34,Population Estimate (as of July 1) - 2012; Total - 34
+est72013_age34,Population Estimate (as of July 1) - 2013; Total - 34
+est72014_age34,Population Estimate (as of July 1) - 2014; Total - 34
+est72015_age34,Population Estimate (as of July 1) - 2015; Total - 34
+est72016_age34,Population Estimate (as of July 1) - 2016; Total - 34
+est72017_age34,Population Estimate (as of July 1) - 2017; Total - 34
+2010Census_age35,"April 1, 2010 - Census; Total - 35"
+estbase42010_age35,"April 1, 2010 - Estimates Base; Total - 35"
+est72010_age35,Population Estimate (as of July 1) - 2010; Total - 35
+est72011_age35,Population Estimate (as of July 1) - 2011; Total - 35
+est72012_age35,Population Estimate (as of July 1) - 2012; Total - 35
+est72013_age35,Population Estimate (as of July 1) - 2013; Total - 35
+est72014_age35,Population Estimate (as of July 1) - 2014; Total - 35
+est72015_age35,Population Estimate (as of July 1) - 2015; Total - 35
+est72016_age35,Population Estimate (as of July 1) - 2016; Total - 35
+est72017_age35,Population Estimate (as of July 1) - 2017; Total - 35
+2010Census_age36,"April 1, 2010 - Census; Total - 36"
+estbase42010_age36,"April 1, 2010 - Estimates Base; Total - 36"
+est72010_age36,Population Estimate (as of July 1) - 2010; Total - 36
+est72011_age36,Population Estimate (as of July 1) - 2011; Total - 36
+est72012_age36,Population Estimate (as of July 1) - 2012; Total - 36
+est72013_age36,Population Estimate (as of July 1) - 2013; Total - 36
+est72014_age36,Population Estimate (as of July 1) - 2014; Total - 36
+est72015_age36,Population Estimate (as of July 1) - 2015; Total - 36
+est72016_age36,Population Estimate (as of July 1) - 2016; Total - 36
+est72017_age36,Population Estimate (as of July 1) - 2017; Total - 36
+2010Census_age37,"April 1, 2010 - Census; Total - 37"
+estbase42010_age37,"April 1, 2010 - Estimates Base; Total - 37"
+est72010_age37,Population Estimate (as of July 1) - 2010; Total - 37
+est72011_age37,Population Estimate (as of July 1) - 2011; Total - 37
+est72012_age37,Population Estimate (as of July 1) - 2012; Total - 37
+est72013_age37,Population Estimate (as of July 1) - 2013; Total - 37
+est72014_age37,Population Estimate (as of July 1) - 2014; Total - 37
+est72015_age37,Population Estimate (as of July 1) - 2015; Total - 37
+est72016_age37,Population Estimate (as of July 1) - 2016; Total - 37
+est72017_age37,Population Estimate (as of July 1) - 2017; Total - 37
+2010Census_age38,"April 1, 2010 - Census; Total - 38"
+estbase42010_age38,"April 1, 2010 - Estimates Base; Total - 38"
+est72010_age38,Population Estimate (as of July 1) - 2010; Total - 38
+est72011_age38,Population Estimate (as of July 1) - 2011; Total - 38
+est72012_age38,Population Estimate (as of July 1) - 2012; Total - 38
+est72013_age38,Population Estimate (as of July 1) - 2013; Total - 38
+est72014_age38,Population Estimate (as of July 1) - 2014; Total - 38
+est72015_age38,Population Estimate (as of July 1) - 2015; Total - 38
+est72016_age38,Population Estimate (as of July 1) - 2016; Total - 38
+est72017_age38,Population Estimate (as of July 1) - 2017; Total - 38
+2010Census_age39,"April 1, 2010 - Census; Total - 39"
+estbase42010_age39,"April 1, 2010 - Estimates Base; Total - 39"
+est72010_age39,Population Estimate (as of July 1) - 2010; Total - 39
+est72011_age39,Population Estimate (as of July 1) - 2011; Total - 39
+est72012_age39,Population Estimate (as of July 1) - 2012; Total - 39
+est72013_age39,Population Estimate (as of July 1) - 2013; Total - 39
+est72014_age39,Population Estimate (as of July 1) - 2014; Total - 39
+est72015_age39,Population Estimate (as of July 1) - 2015; Total - 39
+est72016_age39,Population Estimate (as of July 1) - 2016; Total - 39
+est72017_age39,Population Estimate (as of July 1) - 2017; Total - 39
+2010Census_age40,"April 1, 2010 - Census; Total - 40"
+estbase42010_age40,"April 1, 2010 - Estimates Base; Total - 40"
+est72010_age40,Population Estimate (as of July 1) - 2010; Total - 40
+est72011_age40,Population Estimate (as of July 1) - 2011; Total - 40
+est72012_age40,Population Estimate (as of July 1) - 2012; Total - 40
+est72013_age40,Population Estimate (as of July 1) - 2013; Total - 40
+est72014_age40,Population Estimate (as of July 1) - 2014; Total - 40
+est72015_age40,Population Estimate (as of July 1) - 2015; Total - 40
+est72016_age40,Population Estimate (as of July 1) - 2016; Total - 40
+est72017_age40,Population Estimate (as of July 1) - 2017; Total - 40
+2010Census_age41,"April 1, 2010 - Census; Total - 41"
+estbase42010_age41,"April 1, 2010 - Estimates Base; Total - 41"
+est72010_age41,Population Estimate (as of July 1) - 2010; Total - 41
+est72011_age41,Population Estimate (as of July 1) - 2011; Total - 41
+est72012_age41,Population Estimate (as of July 1) - 2012; Total - 41
+est72013_age41,Population Estimate (as of July 1) - 2013; Total - 41
+est72014_age41,Population Estimate (as of July 1) - 2014; Total - 41
+est72015_age41,Population Estimate (as of July 1) - 2015; Total - 41
+est72016_age41,Population Estimate (as of July 1) - 2016; Total - 41
+est72017_age41,Population Estimate (as of July 1) - 2017; Total - 41
+2010Census_age42,"April 1, 2010 - Census; Total - 42"
+estbase42010_age42,"April 1, 2010 - Estimates Base; Total - 42"
+est72010_age42,Population Estimate (as of July 1) - 2010; Total - 42
+est72011_age42,Population Estimate (as of July 1) - 2011; Total - 42
+est72012_age42,Population Estimate (as of July 1) - 2012; Total - 42
+est72013_age42,Population Estimate (as of July 1) - 2013; Total - 42
+est72014_age42,Population Estimate (as of July 1) - 2014; Total - 42
+est72015_age42,Population Estimate (as of July 1) - 2015; Total - 42
+est72016_age42,Population Estimate (as of July 1) - 2016; Total - 42
+est72017_age42,Population Estimate (as of July 1) - 2017; Total - 42
+2010Census_age43,"April 1, 2010 - Census; Total - 43"
+estbase42010_age43,"April 1, 2010 - Estimates Base; Total - 43"
+est72010_age43,Population Estimate (as of July 1) - 2010; Total - 43
+est72011_age43,Population Estimate (as of July 1) - 2011; Total - 43
+est72012_age43,Population Estimate (as of July 1) - 2012; Total - 43
+est72013_age43,Population Estimate (as of July 1) - 2013; Total - 43
+est72014_age43,Population Estimate (as of July 1) - 2014; Total - 43
+est72015_age43,Population Estimate (as of July 1) - 2015; Total - 43
+est72016_age43,Population Estimate (as of July 1) - 2016; Total - 43
+est72017_age43,Population Estimate (as of July 1) - 2017; Total - 43
+2010Census_age44,"April 1, 2010 - Census; Total - 44"
+estbase42010_age44,"April 1, 2010 - Estimates Base; Total - 44"
+est72010_age44,Population Estimate (as of July 1) - 2010; Total - 44
+est72011_age44,Population Estimate (as of July 1) - 2011; Total - 44
+est72012_age44,Population Estimate (as of July 1) - 2012; Total - 44
+est72013_age44,Population Estimate (as of July 1) - 2013; Total - 44
+est72014_age44,Population Estimate (as of July 1) - 2014; Total - 44
+est72015_age44,Population Estimate (as of July 1) - 2015; Total - 44
+est72016_age44,Population Estimate (as of July 1) - 2016; Total - 44
+est72017_age44,Population Estimate (as of July 1) - 2017; Total - 44
+2010Census_age45,"April 1, 2010 - Census; Total - 45"
+estbase42010_age45,"April 1, 2010 - Estimates Base; Total - 45"
+est72010_age45,Population Estimate (as of July 1) - 2010; Total - 45
+est72011_age45,Population Estimate (as of July 1) - 2011; Total - 45
+est72012_age45,Population Estimate (as of July 1) - 2012; Total - 45
+est72013_age45,Population Estimate (as of July 1) - 2013; Total - 45
+est72014_age45,Population Estimate (as of July 1) - 2014; Total - 45
+est72015_age45,Population Estimate (as of July 1) - 2015; Total - 45
+est72016_age45,Population Estimate (as of July 1) - 2016; Total - 45
+est72017_age45,Population Estimate (as of July 1) - 2017; Total - 45
+2010Census_age46,"April 1, 2010 - Census; Total - 46"
+estbase42010_age46,"April 1, 2010 - Estimates Base; Total - 46"
+est72010_age46,Population Estimate (as of July 1) - 2010; Total - 46
+est72011_age46,Population Estimate (as of July 1) - 2011; Total - 46
+est72012_age46,Population Estimate (as of July 1) - 2012; Total - 46
+est72013_age46,Population Estimate (as of July 1) - 2013; Total - 46
+est72014_age46,Population Estimate (as of July 1) - 2014; Total - 46
+est72015_age46,Population Estimate (as of July 1) - 2015; Total - 46
+est72016_age46,Population Estimate (as of July 1) - 2016; Total - 46
+est72017_age46,Population Estimate (as of July 1) - 2017; Total - 46
+2010Census_age47,"April 1, 2010 - Census; Total - 47"
+estbase42010_age47,"April 1, 2010 - Estimates Base; Total - 47"
+est72010_age47,Population Estimate (as of July 1) - 2010; Total - 47
+est72011_age47,Population Estimate (as of July 1) - 2011; Total - 47
+est72012_age47,Population Estimate (as of July 1) - 2012; Total - 47
+est72013_age47,Population Estimate (as of July 1) - 2013; Total - 47
+est72014_age47,Population Estimate (as of July 1) - 2014; Total - 47
+est72015_age47,Population Estimate (as of July 1) - 2015; Total - 47
+est72016_age47,Population Estimate (as of July 1) - 2016; Total - 47
+est72017_age47,Population Estimate (as of July 1) - 2017; Total - 47
+2010Census_age48,"April 1, 2010 - Census; Total - 48"
+estbase42010_age48,"April 1, 2010 - Estimates Base; Total - 48"
+est72010_age48,Population Estimate (as of July 1) - 2010; Total - 48
+est72011_age48,Population Estimate (as of July 1) - 2011; Total - 48
+est72012_age48,Population Estimate (as of July 1) - 2012; Total - 48
+est72013_age48,Population Estimate (as of July 1) - 2013; Total - 48
+est72014_age48,Population Estimate (as of July 1) - 2014; Total - 48
+est72015_age48,Population Estimate (as of July 1) - 2015; Total - 48
+est72016_age48,Population Estimate (as of July 1) - 2016; Total - 48
+est72017_age48,Population Estimate (as of July 1) - 2017; Total - 48
+2010Census_age49,"April 1, 2010 - Census; Total - 49"
+estbase42010_age49,"April 1, 2010 - Estimates Base; Total - 49"
+est72010_age49,Population Estimate (as of July 1) - 2010; Total - 49
+est72011_age49,Population Estimate (as of July 1) - 2011; Total - 49
+est72012_age49,Population Estimate (as of July 1) - 2012; Total - 49
+est72013_age49,Population Estimate (as of July 1) - 2013; Total - 49
+est72014_age49,Population Estimate (as of July 1) - 2014; Total - 49
+est72015_age49,Population Estimate (as of July 1) - 2015; Total - 49
+est72016_age49,Population Estimate (as of July 1) - 2016; Total - 49
+est72017_age49,Population Estimate (as of July 1) - 2017; Total - 49
+2010Census_age50,"April 1, 2010 - Census; Total - 50"
+estbase42010_age50,"April 1, 2010 - Estimates Base; Total - 50"
+est72010_age50,Population Estimate (as of July 1) - 2010; Total - 50
+est72011_age50,Population Estimate (as of July 1) - 2011; Total - 50
+est72012_age50,Population Estimate (as of July 1) - 2012; Total - 50
+est72013_age50,Population Estimate (as of July 1) - 2013; Total - 50
+est72014_age50,Population Estimate (as of July 1) - 2014; Total - 50
+est72015_age50,Population Estimate (as of July 1) - 2015; Total - 50
+est72016_age50,Population Estimate (as of July 1) - 2016; Total - 50
+est72017_age50,Population Estimate (as of July 1) - 2017; Total - 50
+2010Census_age51,"April 1, 2010 - Census; Total - 51"
+estbase42010_age51,"April 1, 2010 - Estimates Base; Total - 51"
+est72010_age51,Population Estimate (as of July 1) - 2010; Total - 51
+est72011_age51,Population Estimate (as of July 1) - 2011; Total - 51
+est72012_age51,Population Estimate (as of July 1) - 2012; Total - 51
+est72013_age51,Population Estimate (as of July 1) - 2013; Total - 51
+est72014_age51,Population Estimate (as of July 1) - 2014; Total - 51
+est72015_age51,Population Estimate (as of July 1) - 2015; Total - 51
+est72016_age51,Population Estimate (as of July 1) - 2016; Total - 51
+est72017_age51,Population Estimate (as of July 1) - 2017; Total - 51
+2010Census_age52,"April 1, 2010 - Census; Total - 52"
+estbase42010_age52,"April 1, 2010 - Estimates Base; Total - 52"
+est72010_age52,Population Estimate (as of July 1) - 2010; Total - 52
+est72011_age52,Population Estimate (as of July 1) - 2011; Total - 52
+est72012_age52,Population Estimate (as of July 1) - 2012; Total - 52
+est72013_age52,Population Estimate (as of July 1) - 2013; Total - 52
+est72014_age52,Population Estimate (as of July 1) - 2014; Total - 52
+est72015_age52,Population Estimate (as of July 1) - 2015; Total - 52
+est72016_age52,Population Estimate (as of July 1) - 2016; Total - 52
+est72017_age52,Population Estimate (as of July 1) - 2017; Total - 52
+2010Census_age53,"April 1, 2010 - Census; Total - 53"
+estbase42010_age53,"April 1, 2010 - Estimates Base; Total - 53"
+est72010_age53,Population Estimate (as of July 1) - 2010; Total - 53
+est72011_age53,Population Estimate (as of July 1) - 2011; Total - 53
+est72012_age53,Population Estimate (as of July 1) - 2012; Total - 53
+est72013_age53,Population Estimate (as of July 1) - 2013; Total - 53
+est72014_age53,Population Estimate (as of July 1) - 2014; Total - 53
+est72015_age53,Population Estimate (as of July 1) - 2015; Total - 53
+est72016_age53,Population Estimate (as of July 1) - 2016; Total - 53
+est72017_age53,Population Estimate (as of July 1) - 2017; Total - 53
+2010Census_age54,"April 1, 2010 - Census; Total - 54"
+estbase42010_age54,"April 1, 2010 - Estimates Base; Total - 54"
+est72010_age54,Population Estimate (as of July 1) - 2010; Total - 54
+est72011_age54,Population Estimate (as of July 1) - 2011; Total - 54
+est72012_age54,Population Estimate (as of July 1) - 2012; Total - 54
+est72013_age54,Population Estimate (as of July 1) - 2013; Total - 54
+est72014_age54,Population Estimate (as of July 1) - 2014; Total - 54
+est72015_age54,Population Estimate (as of July 1) - 2015; Total - 54
+est72016_age54,Population Estimate (as of July 1) - 2016; Total - 54
+est72017_age54,Population Estimate (as of July 1) - 2017; Total - 54
+2010Census_age55,"April 1, 2010 - Census; Total - 55"
+estbase42010_age55,"April 1, 2010 - Estimates Base; Total - 55"
+est72010_age55,Population Estimate (as of July 1) - 2010; Total - 55
+est72011_age55,Population Estimate (as of July 1) - 2011; Total - 55
+est72012_age55,Population Estimate (as of July 1) - 2012; Total - 55
+est72013_age55,Population Estimate (as of July 1) - 2013; Total - 55
+est72014_age55,Population Estimate (as of July 1) - 2014; Total - 55
+est72015_age55,Population Estimate (as of July 1) - 2015; Total - 55
+est72016_age55,Population Estimate (as of July 1) - 2016; Total - 55
+est72017_age55,Population Estimate (as of July 1) - 2017; Total - 55
+2010Census_age56,"April 1, 2010 - Census; Total - 56"
+estbase42010_age56,"April 1, 2010 - Estimates Base; Total - 56"
+est72010_age56,Population Estimate (as of July 1) - 2010; Total - 56
+est72011_age56,Population Estimate (as of July 1) - 2011; Total - 56
+est72012_age56,Population Estimate (as of July 1) - 2012; Total - 56
+est72013_age56,Population Estimate (as of July 1) - 2013; Total - 56
+est72014_age56,Population Estimate (as of July 1) - 2014; Total - 56
+est72015_age56,Population Estimate (as of July 1) - 2015; Total - 56
+est72016_age56,Population Estimate (as of July 1) - 2016; Total - 56
+est72017_age56,Population Estimate (as of July 1) - 2017; Total - 56
+2010Census_age57,"April 1, 2010 - Census; Total - 57"
+estbase42010_age57,"April 1, 2010 - Estimates Base; Total - 57"
+est72010_age57,Population Estimate (as of July 1) - 2010; Total - 57
+est72011_age57,Population Estimate (as of July 1) - 2011; Total - 57
+est72012_age57,Population Estimate (as of July 1) - 2012; Total - 57
+est72013_age57,Population Estimate (as of July 1) - 2013; Total - 57
+est72014_age57,Population Estimate (as of July 1) - 2014; Total - 57
+est72015_age57,Population Estimate (as of July 1) - 2015; Total - 57
+est72016_age57,Population Estimate (as of July 1) - 2016; Total - 57
+est72017_age57,Population Estimate (as of July 1) - 2017; Total - 57
+2010Census_age58,"April 1, 2010 - Census; Total - 58"
+estbase42010_age58,"April 1, 2010 - Estimates Base; Total - 58"
+est72010_age58,Population Estimate (as of July 1) - 2010; Total - 58
+est72011_age58,Population Estimate (as of July 1) - 2011; Total - 58
+est72012_age58,Population Estimate (as of July 1) - 2012; Total - 58
+est72013_age58,Population Estimate (as of July 1) - 2013; Total - 58
+est72014_age58,Population Estimate (as of July 1) - 2014; Total - 58
+est72015_age58,Population Estimate (as of July 1) - 2015; Total - 58
+est72016_age58,Population Estimate (as of July 1) - 2016; Total - 58
+est72017_age58,Population Estimate (as of July 1) - 2017; Total - 58
+2010Census_age59,"April 1, 2010 - Census; Total - 59"
+estbase42010_age59,"April 1, 2010 - Estimates Base; Total - 59"
+est72010_age59,Population Estimate (as of July 1) - 2010; Total - 59
+est72011_age59,Population Estimate (as of July 1) - 2011; Total - 59
+est72012_age59,Population Estimate (as of July 1) - 2012; Total - 59
+est72013_age59,Population Estimate (as of July 1) - 2013; Total - 59
+est72014_age59,Population Estimate (as of July 1) - 2014; Total - 59
+est72015_age59,Population Estimate (as of July 1) - 2015; Total - 59
+est72016_age59,Population Estimate (as of July 1) - 2016; Total - 59
+est72017_age59,Population Estimate (as of July 1) - 2017; Total - 59
+2010Census_age60,"April 1, 2010 - Census; Total - 60"
+estbase42010_age60,"April 1, 2010 - Estimates Base; Total - 60"
+est72010_age60,Population Estimate (as of July 1) - 2010; Total - 60
+est72011_age60,Population Estimate (as of July 1) - 2011; Total - 60
+est72012_age60,Population Estimate (as of July 1) - 2012; Total - 60
+est72013_age60,Population Estimate (as of July 1) - 2013; Total - 60
+est72014_age60,Population Estimate (as of July 1) - 2014; Total - 60
+est72015_age60,Population Estimate (as of July 1) - 2015; Total - 60
+est72016_age60,Population Estimate (as of July 1) - 2016; Total - 60
+est72017_age60,Population Estimate (as of July 1) - 2017; Total - 60
+2010Census_age61,"April 1, 2010 - Census; Total - 61"
+estbase42010_age61,"April 1, 2010 - Estimates Base; Total - 61"
+est72010_age61,Population Estimate (as of July 1) - 2010; Total - 61
+est72011_age61,Population Estimate (as of July 1) - 2011; Total - 61
+est72012_age61,Population Estimate (as of July 1) - 2012; Total - 61
+est72013_age61,Population Estimate (as of July 1) - 2013; Total - 61
+est72014_age61,Population Estimate (as of July 1) - 2014; Total - 61
+est72015_age61,Population Estimate (as of July 1) - 2015; Total - 61
+est72016_age61,Population Estimate (as of July 1) - 2016; Total - 61
+est72017_age61,Population Estimate (as of July 1) - 2017; Total - 61
+2010Census_age62,"April 1, 2010 - Census; Total - 62"
+estbase42010_age62,"April 1, 2010 - Estimates Base; Total - 62"
+est72010_age62,Population Estimate (as of July 1) - 2010; Total - 62
+est72011_age62,Population Estimate (as of July 1) - 2011; Total - 62
+est72012_age62,Population Estimate (as of July 1) - 2012; Total - 62
+est72013_age62,Population Estimate (as of July 1) - 2013; Total - 62
+est72014_age62,Population Estimate (as of July 1) - 2014; Total - 62
+est72015_age62,Population Estimate (as of July 1) - 2015; Total - 62
+est72016_age62,Population Estimate (as of July 1) - 2016; Total - 62
+est72017_age62,Population Estimate (as of July 1) - 2017; Total - 62
+2010Census_age63,"April 1, 2010 - Census; Total - 63"
+estbase42010_age63,"April 1, 2010 - Estimates Base; Total - 63"
+est72010_age63,Population Estimate (as of July 1) - 2010; Total - 63
+est72011_age63,Population Estimate (as of July 1) - 2011; Total - 63
+est72012_age63,Population Estimate (as of July 1) - 2012; Total - 63
+est72013_age63,Population Estimate (as of July 1) - 2013; Total - 63
+est72014_age63,Population Estimate (as of July 1) - 2014; Total - 63
+est72015_age63,Population Estimate (as of July 1) - 2015; Total - 63
+est72016_age63,Population Estimate (as of July 1) - 2016; Total - 63
+est72017_age63,Population Estimate (as of July 1) - 2017; Total - 63
+2010Census_age64,"April 1, 2010 - Census; Total - 64"
+estbase42010_age64,"April 1, 2010 - Estimates Base; Total - 64"
+est72010_age64,Population Estimate (as of July 1) - 2010; Total - 64
+est72011_age64,Population Estimate (as of July 1) - 2011; Total - 64
+est72012_age64,Population Estimate (as of July 1) - 2012; Total - 64
+est72013_age64,Population Estimate (as of July 1) - 2013; Total - 64
+est72014_age64,Population Estimate (as of July 1) - 2014; Total - 64
+est72015_age64,Population Estimate (as of July 1) - 2015; Total - 64
+est72016_age64,Population Estimate (as of July 1) - 2016; Total - 64
+est72017_age64,Population Estimate (as of July 1) - 2017; Total - 64
+2010Census_age65,"April 1, 2010 - Census; Total - 65"
+estbase42010_age65,"April 1, 2010 - Estimates Base; Total - 65"
+est72010_age65,Population Estimate (as of July 1) - 2010; Total - 65
+est72011_age65,Population Estimate (as of July 1) - 2011; Total - 65
+est72012_age65,Population Estimate (as of July 1) - 2012; Total - 65
+est72013_age65,Population Estimate (as of July 1) - 2013; Total - 65
+est72014_age65,Population Estimate (as of July 1) - 2014; Total - 65
+est72015_age65,Population Estimate (as of July 1) - 2015; Total - 65
+est72016_age65,Population Estimate (as of July 1) - 2016; Total - 65
+est72017_age65,Population Estimate (as of July 1) - 2017; Total - 65
+2010Census_age66,"April 1, 2010 - Census; Total - 66"
+estbase42010_age66,"April 1, 2010 - Estimates Base; Total - 66"
+est72010_age66,Population Estimate (as of July 1) - 2010; Total - 66
+est72011_age66,Population Estimate (as of July 1) - 2011; Total - 66
+est72012_age66,Population Estimate (as of July 1) - 2012; Total - 66
+est72013_age66,Population Estimate (as of July 1) - 2013; Total - 66
+est72014_age66,Population Estimate (as of July 1) - 2014; Total - 66
+est72015_age66,Population Estimate (as of July 1) - 2015; Total - 66
+est72016_age66,Population Estimate (as of July 1) - 2016; Total - 66
+est72017_age66,Population Estimate (as of July 1) - 2017; Total - 66
+2010Census_age67,"April 1, 2010 - Census; Total - 67"
+estbase42010_age67,"April 1, 2010 - Estimates Base; Total - 67"
+est72010_age67,Population Estimate (as of July 1) - 2010; Total - 67
+est72011_age67,Population Estimate (as of July 1) - 2011; Total - 67
+est72012_age67,Population Estimate (as of July 1) - 2012; Total - 67
+est72013_age67,Population Estimate (as of July 1) - 2013; Total - 67
+est72014_age67,Population Estimate (as of July 1) - 2014; Total - 67
+est72015_age67,Population Estimate (as of July 1) - 2015; Total - 67
+est72016_age67,Population Estimate (as of July 1) - 2016; Total - 67
+est72017_age67,Population Estimate (as of July 1) - 2017; Total - 67
+2010Census_age68,"April 1, 2010 - Census; Total - 68"
+estbase42010_age68,"April 1, 2010 - Estimates Base; Total - 68"
+est72010_age68,Population Estimate (as of July 1) - 2010; Total - 68
+est72011_age68,Population Estimate (as of July 1) - 2011; Total - 68
+est72012_age68,Population Estimate (as of July 1) - 2012; Total - 68
+est72013_age68,Population Estimate (as of July 1) - 2013; Total - 68
+est72014_age68,Population Estimate (as of July 1) - 2014; Total - 68
+est72015_age68,Population Estimate (as of July 1) - 2015; Total - 68
+est72016_age68,Population Estimate (as of July 1) - 2016; Total - 68
+est72017_age68,Population Estimate (as of July 1) - 2017; Total - 68
+2010Census_age69,"April 1, 2010 - Census; Total - 69"
+estbase42010_age69,"April 1, 2010 - Estimates Base; Total - 69"
+est72010_age69,Population Estimate (as of July 1) - 2010; Total - 69
+est72011_age69,Population Estimate (as of July 1) - 2011; Total - 69
+est72012_age69,Population Estimate (as of July 1) - 2012; Total - 69
+est72013_age69,Population Estimate (as of July 1) - 2013; Total - 69
+est72014_age69,Population Estimate (as of July 1) - 2014; Total - 69
+est72015_age69,Population Estimate (as of July 1) - 2015; Total - 69
+est72016_age69,Population Estimate (as of July 1) - 2016; Total - 69
+est72017_age69,Population Estimate (as of July 1) - 2017; Total - 69
+2010Census_age70,"April 1, 2010 - Census; Total - 70"
+estbase42010_age70,"April 1, 2010 - Estimates Base; Total - 70"
+est72010_age70,Population Estimate (as of July 1) - 2010; Total - 70
+est72011_age70,Population Estimate (as of July 1) - 2011; Total - 70
+est72012_age70,Population Estimate (as of July 1) - 2012; Total - 70
+est72013_age70,Population Estimate (as of July 1) - 2013; Total - 70
+est72014_age70,Population Estimate (as of July 1) - 2014; Total - 70
+est72015_age70,Population Estimate (as of July 1) - 2015; Total - 70
+est72016_age70,Population Estimate (as of July 1) - 2016; Total - 70
+est72017_age70,Population Estimate (as of July 1) - 2017; Total - 70
+2010Census_age71,"April 1, 2010 - Census; Total - 71"
+estbase42010_age71,"April 1, 2010 - Estimates Base; Total - 71"
+est72010_age71,Population Estimate (as of July 1) - 2010; Total - 71
+est72011_age71,Population Estimate (as of July 1) - 2011; Total - 71
+est72012_age71,Population Estimate (as of July 1) - 2012; Total - 71
+est72013_age71,Population Estimate (as of July 1) - 2013; Total - 71
+est72014_age71,Population Estimate (as of July 1) - 2014; Total - 71
+est72015_age71,Population Estimate (as of July 1) - 2015; Total - 71
+est72016_age71,Population Estimate (as of July 1) - 2016; Total - 71
+est72017_age71,Population Estimate (as of July 1) - 2017; Total - 71
+2010Census_age72,"April 1, 2010 - Census; Total - 72"
+estbase42010_age72,"April 1, 2010 - Estimates Base; Total - 72"
+est72010_age72,Population Estimate (as of July 1) - 2010; Total - 72
+est72011_age72,Population Estimate (as of July 1) - 2011; Total - 72
+est72012_age72,Population Estimate (as of July 1) - 2012; Total - 72
+est72013_age72,Population Estimate (as of July 1) - 2013; Total - 72
+est72014_age72,Population Estimate (as of July 1) - 2014; Total - 72
+est72015_age72,Population Estimate (as of July 1) - 2015; Total - 72
+est72016_age72,Population Estimate (as of July 1) - 2016; Total - 72
+est72017_age72,Population Estimate (as of July 1) - 2017; Total - 72
+2010Census_age73,"April 1, 2010 - Census; Total - 73"
+estbase42010_age73,"April 1, 2010 - Estimates Base; Total - 73"
+est72010_age73,Population Estimate (as of July 1) - 2010; Total - 73
+est72011_age73,Population Estimate (as of July 1) - 2011; Total - 73
+est72012_age73,Population Estimate (as of July 1) - 2012; Total - 73
+est72013_age73,Population Estimate (as of July 1) - 2013; Total - 73
+est72014_age73,Population Estimate (as of July 1) - 2014; Total - 73
+est72015_age73,Population Estimate (as of July 1) - 2015; Total - 73
+est72016_age73,Population Estimate (as of July 1) - 2016; Total - 73
+est72017_age73,Population Estimate (as of July 1) - 2017; Total - 73
+2010Census_age74,"April 1, 2010 - Census; Total - 74"
+estbase42010_age74,"April 1, 2010 - Estimates Base; Total - 74"
+est72010_age74,Population Estimate (as of July 1) - 2010; Total - 74
+est72011_age74,Population Estimate (as of July 1) - 2011; Total - 74
+est72012_age74,Population Estimate (as of July 1) - 2012; Total - 74
+est72013_age74,Population Estimate (as of July 1) - 2013; Total - 74
+est72014_age74,Population Estimate (as of July 1) - 2014; Total - 74
+est72015_age74,Population Estimate (as of July 1) - 2015; Total - 74
+est72016_age74,Population Estimate (as of July 1) - 2016; Total - 74
+est72017_age74,Population Estimate (as of July 1) - 2017; Total - 74
+2010Census_age75,"April 1, 2010 - Census; Total - 75"
+estbase42010_age75,"April 1, 2010 - Estimates Base; Total - 75"
+est72010_age75,Population Estimate (as of July 1) - 2010; Total - 75
+est72011_age75,Population Estimate (as of July 1) - 2011; Total - 75
+est72012_age75,Population Estimate (as of July 1) - 2012; Total - 75
+est72013_age75,Population Estimate (as of July 1) - 2013; Total - 75
+est72014_age75,Population Estimate (as of July 1) - 2014; Total - 75
+est72015_age75,Population Estimate (as of July 1) - 2015; Total - 75
+est72016_age75,Population Estimate (as of July 1) - 2016; Total - 75
+est72017_age75,Population Estimate (as of July 1) - 2017; Total - 75
+2010Census_age76,"April 1, 2010 - Census; Total - 76"
+estbase42010_age76,"April 1, 2010 - Estimates Base; Total - 76"
+est72010_age76,Population Estimate (as of July 1) - 2010; Total - 76
+est72011_age76,Population Estimate (as of July 1) - 2011; Total - 76
+est72012_age76,Population Estimate (as of July 1) - 2012; Total - 76
+est72013_age76,Population Estimate (as of July 1) - 2013; Total - 76
+est72014_age76,Population Estimate (as of July 1) - 2014; Total - 76
+est72015_age76,Population Estimate (as of July 1) - 2015; Total - 76
+est72016_age76,Population Estimate (as of July 1) - 2016; Total - 76
+est72017_age76,Population Estimate (as of July 1) - 2017; Total - 76
+2010Census_age77,"April 1, 2010 - Census; Total - 77"
+estbase42010_age77,"April 1, 2010 - Estimates Base; Total - 77"
+est72010_age77,Population Estimate (as of July 1) - 2010; Total - 77
+est72011_age77,Population Estimate (as of July 1) - 2011; Total - 77
+est72012_age77,Population Estimate (as of July 1) - 2012; Total - 77
+est72013_age77,Population Estimate (as of July 1) - 2013; Total - 77
+est72014_age77,Population Estimate (as of July 1) - 2014; Total - 77
+est72015_age77,Population Estimate (as of July 1) - 2015; Total - 77
+est72016_age77,Population Estimate (as of July 1) - 2016; Total - 77
+est72017_age77,Population Estimate (as of July 1) - 2017; Total - 77
+2010Census_age78,"April 1, 2010 - Census; Total - 78"
+estbase42010_age78,"April 1, 2010 - Estimates Base; Total - 78"
+est72010_age78,Population Estimate (as of July 1) - 2010; Total - 78
+est72011_age78,Population Estimate (as of July 1) - 2011; Total - 78
+est72012_age78,Population Estimate (as of July 1) - 2012; Total - 78
+est72013_age78,Population Estimate (as of July 1) - 2013; Total - 78
+est72014_age78,Population Estimate (as of July 1) - 2014; Total - 78
+est72015_age78,Population Estimate (as of July 1) - 2015; Total - 78
+est72016_age78,Population Estimate (as of July 1) - 2016; Total - 78
+est72017_age78,Population Estimate (as of July 1) - 2017; Total - 78
+2010Census_age79,"April 1, 2010 - Census; Total - 79"
+estbase42010_age79,"April 1, 2010 - Estimates Base; Total - 79"
+est72010_age79,Population Estimate (as of July 1) - 2010; Total - 79
+est72011_age79,Population Estimate (as of July 1) - 2011; Total - 79
+est72012_age79,Population Estimate (as of July 1) - 2012; Total - 79
+est72013_age79,Population Estimate (as of July 1) - 2013; Total - 79
+est72014_age79,Population Estimate (as of July 1) - 2014; Total - 79
+est72015_age79,Population Estimate (as of July 1) - 2015; Total - 79
+est72016_age79,Population Estimate (as of July 1) - 2016; Total - 79
+est72017_age79,Population Estimate (as of July 1) - 2017; Total - 79
+2010Census_age80,"April 1, 2010 - Census; Total - 80"
+estbase42010_age80,"April 1, 2010 - Estimates Base; Total - 80"
+est72010_age80,Population Estimate (as of July 1) - 2010; Total - 80
+est72011_age80,Population Estimate (as of July 1) - 2011; Total - 80
+est72012_age80,Population Estimate (as of July 1) - 2012; Total - 80
+est72013_age80,Population Estimate (as of July 1) - 2013; Total - 80
+est72014_age80,Population Estimate (as of July 1) - 2014; Total - 80
+est72015_age80,Population Estimate (as of July 1) - 2015; Total - 80
+est72016_age80,Population Estimate (as of July 1) - 2016; Total - 80
+est72017_age80,Population Estimate (as of July 1) - 2017; Total - 80
+2010Census_age81,"April 1, 2010 - Census; Total - 81"
+estbase42010_age81,"April 1, 2010 - Estimates Base; Total - 81"
+est72010_age81,Population Estimate (as of July 1) - 2010; Total - 81
+est72011_age81,Population Estimate (as of July 1) - 2011; Total - 81
+est72012_age81,Population Estimate (as of July 1) - 2012; Total - 81
+est72013_age81,Population Estimate (as of July 1) - 2013; Total - 81
+est72014_age81,Population Estimate (as of July 1) - 2014; Total - 81
+est72015_age81,Population Estimate (as of July 1) - 2015; Total - 81
+est72016_age81,Population Estimate (as of July 1) - 2016; Total - 81
+est72017_age81,Population Estimate (as of July 1) - 2017; Total - 81
+2010Census_age82,"April 1, 2010 - Census; Total - 82"
+estbase42010_age82,"April 1, 2010 - Estimates Base; Total - 82"
+est72010_age82,Population Estimate (as of July 1) - 2010; Total - 82
+est72011_age82,Population Estimate (as of July 1) - 2011; Total - 82
+est72012_age82,Population Estimate (as of July 1) - 2012; Total - 82
+est72013_age82,Population Estimate (as of July 1) - 2013; Total - 82
+est72014_age82,Population Estimate (as of July 1) - 2014; Total - 82
+est72015_age82,Population Estimate (as of July 1) - 2015; Total - 82
+est72016_age82,Population Estimate (as of July 1) - 2016; Total - 82
+est72017_age82,Population Estimate (as of July 1) - 2017; Total - 82
+2010Census_age83,"April 1, 2010 - Census; Total - 83"
+estbase42010_age83,"April 1, 2010 - Estimates Base; Total - 83"
+est72010_age83,Population Estimate (as of July 1) - 2010; Total - 83
+est72011_age83,Population Estimate (as of July 1) - 2011; Total - 83
+est72012_age83,Population Estimate (as of July 1) - 2012; Total - 83
+est72013_age83,Population Estimate (as of July 1) - 2013; Total - 83
+est72014_age83,Population Estimate (as of July 1) - 2014; Total - 83
+est72015_age83,Population Estimate (as of July 1) - 2015; Total - 83
+est72016_age83,Population Estimate (as of July 1) - 2016; Total - 83
+est72017_age83,Population Estimate (as of July 1) - 2017; Total - 83
+2010Census_age84,"April 1, 2010 - Census; Total - 84"
+estbase42010_age84,"April 1, 2010 - Estimates Base; Total - 84"
+est72010_age84,Population Estimate (as of July 1) - 2010; Total - 84
+est72011_age84,Population Estimate (as of July 1) - 2011; Total - 84
+est72012_age84,Population Estimate (as of July 1) - 2012; Total - 84
+est72013_age84,Population Estimate (as of July 1) - 2013; Total - 84
+est72014_age84,Population Estimate (as of July 1) - 2014; Total - 84
+est72015_age84,Population Estimate (as of July 1) - 2015; Total - 84
+est72016_age84,Population Estimate (as of July 1) - 2016; Total - 84
+est72017_age84,Population Estimate (as of July 1) - 2017; Total - 84
+2010Census_age85,"April 1, 2010 - Census; Total - 85"
+estbase42010_age85,"April 1, 2010 - Estimates Base; Total - 85"
+est72010_age85,Population Estimate (as of July 1) - 2010; Total - 85
+est72011_age85,Population Estimate (as of July 1) - 2011; Total - 85
+est72012_age85,Population Estimate (as of July 1) - 2012; Total - 85
+est72013_age85,Population Estimate (as of July 1) - 2013; Total - 85
+est72014_age85,Population Estimate (as of July 1) - 2014; Total - 85
+est72015_age85,Population Estimate (as of July 1) - 2015; Total - 85
+est72016_age85,Population Estimate (as of July 1) - 2016; Total - 85
+est72017_age85,Population Estimate (as of July 1) - 2017; Total - 85
+2010Census_age86,"April 1, 2010 - Census; Total - 86"
+estbase42010_age86,"April 1, 2010 - Estimates Base; Total - 86"
+est72010_age86,Population Estimate (as of July 1) - 2010; Total - 86
+est72011_age86,Population Estimate (as of July 1) - 2011; Total - 86
+est72012_age86,Population Estimate (as of July 1) - 2012; Total - 86
+est72013_age86,Population Estimate (as of July 1) - 2013; Total - 86
+est72014_age86,Population Estimate (as of July 1) - 2014; Total - 86
+est72015_age86,Population Estimate (as of July 1) - 2015; Total - 86
+est72016_age86,Population Estimate (as of July 1) - 2016; Total - 86
+est72017_age86,Population Estimate (as of July 1) - 2017; Total - 86
+2010Census_age87,"April 1, 2010 - Census; Total - 87"
+estbase42010_age87,"April 1, 2010 - Estimates Base; Total - 87"
+est72010_age87,Population Estimate (as of July 1) - 2010; Total - 87
+est72011_age87,Population Estimate (as of July 1) - 2011; Total - 87
+est72012_age87,Population Estimate (as of July 1) - 2012; Total - 87
+est72013_age87,Population Estimate (as of July 1) - 2013; Total - 87
+est72014_age87,Population Estimate (as of July 1) - 2014; Total - 87
+est72015_age87,Population Estimate (as of July 1) - 2015; Total - 87
+est72016_age87,Population Estimate (as of July 1) - 2016; Total - 87
+est72017_age87,Population Estimate (as of July 1) - 2017; Total - 87
+2010Census_age88,"April 1, 2010 - Census; Total - 88"
+estbase42010_age88,"April 1, 2010 - Estimates Base; Total - 88"
+est72010_age88,Population Estimate (as of July 1) - 2010; Total - 88
+est72011_age88,Population Estimate (as of July 1) - 2011; Total - 88
+est72012_age88,Population Estimate (as of July 1) - 2012; Total - 88
+est72013_age88,Population Estimate (as of July 1) - 2013; Total - 88
+est72014_age88,Population Estimate (as of July 1) - 2014; Total - 88
+est72015_age88,Population Estimate (as of July 1) - 2015; Total - 88
+est72016_age88,Population Estimate (as of July 1) - 2016; Total - 88
+est72017_age88,Population Estimate (as of July 1) - 2017; Total - 88
+2010Census_age89,"April 1, 2010 - Census; Total - 89"
+estbase42010_age89,"April 1, 2010 - Estimates Base; Total - 89"
+est72010_age89,Population Estimate (as of July 1) - 2010; Total - 89
+est72011_age89,Population Estimate (as of July 1) - 2011; Total - 89
+est72012_age89,Population Estimate (as of July 1) - 2012; Total - 89
+est72013_age89,Population Estimate (as of July 1) - 2013; Total - 89
+est72014_age89,Population Estimate (as of July 1) - 2014; Total - 89
+est72015_age89,Population Estimate (as of July 1) - 2015; Total - 89
+est72016_age89,Population Estimate (as of July 1) - 2016; Total - 89
+est72017_age89,Population Estimate (as of July 1) - 2017; Total - 89
+2010Census_age90,"April 1, 2010 - Census; Total - 90"
+estbase42010_age90,"April 1, 2010 - Estimates Base; Total - 90"
+est72010_age90,Population Estimate (as of July 1) - 2010; Total - 90
+est72011_age90,Population Estimate (as of July 1) - 2011; Total - 90
+est72012_age90,Population Estimate (as of July 1) - 2012; Total - 90
+est72013_age90,Population Estimate (as of July 1) - 2013; Total - 90
+est72014_age90,Population Estimate (as of July 1) - 2014; Total - 90
+est72015_age90,Population Estimate (as of July 1) - 2015; Total - 90
+est72016_age90,Population Estimate (as of July 1) - 2016; Total - 90
+est72017_age90,Population Estimate (as of July 1) - 2017; Total - 90
+2010Census_age91,"April 1, 2010 - Census; Total - 91"
+estbase42010_age91,"April 1, 2010 - Estimates Base; Total - 91"
+est72010_age91,Population Estimate (as of July 1) - 2010; Total - 91
+est72011_age91,Population Estimate (as of July 1) - 2011; Total - 91
+est72012_age91,Population Estimate (as of July 1) - 2012; Total - 91
+est72013_age91,Population Estimate (as of July 1) - 2013; Total - 91
+est72014_age91,Population Estimate (as of July 1) - 2014; Total - 91
+est72015_age91,Population Estimate (as of July 1) - 2015; Total - 91
+est72016_age91,Population Estimate (as of July 1) - 2016; Total - 91
+est72017_age91,Population Estimate (as of July 1) - 2017; Total - 91
+2010Census_age92,"April 1, 2010 - Census; Total - 92"
+estbase42010_age92,"April 1, 2010 - Estimates Base; Total - 92"
+est72010_age92,Population Estimate (as of July 1) - 2010; Total - 92
+est72011_age92,Population Estimate (as of July 1) - 2011; Total - 92
+est72012_age92,Population Estimate (as of July 1) - 2012; Total - 92
+est72013_age92,Population Estimate (as of July 1) - 2013; Total - 92
+est72014_age92,Population Estimate (as of July 1) - 2014; Total - 92
+est72015_age92,Population Estimate (as of July 1) - 2015; Total - 92
+est72016_age92,Population Estimate (as of July 1) - 2016; Total - 92
+est72017_age92,Population Estimate (as of July 1) - 2017; Total - 92
+2010Census_age93,"April 1, 2010 - Census; Total - 93"
+estbase42010_age93,"April 1, 2010 - Estimates Base; Total - 93"
+est72010_age93,Population Estimate (as of July 1) - 2010; Total - 93
+est72011_age93,Population Estimate (as of July 1) - 2011; Total - 93
+est72012_age93,Population Estimate (as of July 1) - 2012; Total - 93
+est72013_age93,Population Estimate (as of July 1) - 2013; Total - 93
+est72014_age93,Population Estimate (as of July 1) - 2014; Total - 93
+est72015_age93,Population Estimate (as of July 1) - 2015; Total - 93
+est72016_age93,Population Estimate (as of July 1) - 2016; Total - 93
+est72017_age93,Population Estimate (as of July 1) - 2017; Total - 93
+2010Census_age94,"April 1, 2010 - Census; Total - 94"
+estbase42010_age94,"April 1, 2010 - Estimates Base; Total - 94"
+est72010_age94,Population Estimate (as of July 1) - 2010; Total - 94
+est72011_age94,Population Estimate (as of July 1) - 2011; Total - 94
+est72012_age94,Population Estimate (as of July 1) - 2012; Total - 94
+est72013_age94,Population Estimate (as of July 1) - 2013; Total - 94
+est72014_age94,Population Estimate (as of July 1) - 2014; Total - 94
+est72015_age94,Population Estimate (as of July 1) - 2015; Total - 94
+est72016_age94,Population Estimate (as of July 1) - 2016; Total - 94
+est72017_age94,Population Estimate (as of July 1) - 2017; Total - 94
+2010Census_age95,"April 1, 2010 - Census; Total - 95"
+estbase42010_age95,"April 1, 2010 - Estimates Base; Total - 95"
+est72010_age95,Population Estimate (as of July 1) - 2010; Total - 95
+est72011_age95,Population Estimate (as of July 1) - 2011; Total - 95
+est72012_age95,Population Estimate (as of July 1) - 2012; Total - 95
+est72013_age95,Population Estimate (as of July 1) - 2013; Total - 95
+est72014_age95,Population Estimate (as of July 1) - 2014; Total - 95
+est72015_age95,Population Estimate (as of July 1) - 2015; Total - 95
+est72016_age95,Population Estimate (as of July 1) - 2016; Total - 95
+est72017_age95,Population Estimate (as of July 1) - 2017; Total - 95
+2010Census_age96,"April 1, 2010 - Census; Total - 96"
+estbase42010_age96,"April 1, 2010 - Estimates Base; Total - 96"
+est72010_age96,Population Estimate (as of July 1) - 2010; Total - 96
+est72011_age96,Population Estimate (as of July 1) - 2011; Total - 96
+est72012_age96,Population Estimate (as of July 1) - 2012; Total - 96
+est72013_age96,Population Estimate (as of July 1) - 2013; Total - 96
+est72014_age96,Population Estimate (as of July 1) - 2014; Total - 96
+est72015_age96,Population Estimate (as of July 1) - 2015; Total - 96
+est72016_age96,Population Estimate (as of July 1) - 2016; Total - 96
+est72017_age96,Population Estimate (as of July 1) - 2017; Total - 96
+2010Census_age97,"April 1, 2010 - Census; Total - 97"
+estbase42010_age97,"April 1, 2010 - Estimates Base; Total - 97"
+est72010_age97,Population Estimate (as of July 1) - 2010; Total - 97
+est72011_age97,Population Estimate (as of July 1) - 2011; Total - 97
+est72012_age97,Population Estimate (as of July 1) - 2012; Total - 97
+est72013_age97,Population Estimate (as of July 1) - 2013; Total - 97
+est72014_age97,Population Estimate (as of July 1) - 2014; Total - 97
+est72015_age97,Population Estimate (as of July 1) - 2015; Total - 97
+est72016_age97,Population Estimate (as of July 1) - 2016; Total - 97
+est72017_age97,Population Estimate (as of July 1) - 2017; Total - 97
+2010Census_age98,"April 1, 2010 - Census; Total - 98"
+estbase42010_age98,"April 1, 2010 - Estimates Base; Total - 98"
+est72010_age98,Population Estimate (as of July 1) - 2010; Total - 98
+est72011_age98,Population Estimate (as of July 1) - 2011; Total - 98
+est72012_age98,Population Estimate (as of July 1) - 2012; Total - 98
+est72013_age98,Population Estimate (as of July 1) - 2013; Total - 98
+est72014_age98,Population Estimate (as of July 1) - 2014; Total - 98
+est72015_age98,Population Estimate (as of July 1) - 2015; Total - 98
+est72016_age98,Population Estimate (as of July 1) - 2016; Total - 98
+est72017_age98,Population Estimate (as of July 1) - 2017; Total - 98
+2010Census_age99,"April 1, 2010 - Census; Total - 99"
+estbase42010_age99,"April 1, 2010 - Estimates Base; Total - 99"
+est72010_age99,Population Estimate (as of July 1) - 2010; Total - 99
+est72011_age99,Population Estimate (as of July 1) - 2011; Total - 99
+est72012_age99,Population Estimate (as of July 1) - 2012; Total - 99
+est72013_age99,Population Estimate (as of July 1) - 2013; Total - 99
+est72014_age99,Population Estimate (as of July 1) - 2014; Total - 99
+est72015_age99,Population Estimate (as of July 1) - 2015; Total - 99
+est72016_age99,Population Estimate (as of July 1) - 2016; Total - 99
+est72017_age99,Population Estimate (as of July 1) - 2017; Total - 99
+2010Census_age100plus,"April 1, 2010 - Census; Total - 100+"
+estbase42010_age100plus,"April 1, 2010 - Estimates Base; Total - 100+"
+est72010_age100plus,Population Estimate (as of July 1) - 2010; Total - 100+
+est72011_age100plus,Population Estimate (as of July 1) - 2011; Total - 100+
+est72012_age100plus,Population Estimate (as of July 1) - 2012; Total - 100+
+est72013_age100plus,Population Estimate (as of July 1) - 2013; Total - 100+
+est72014_age100plus,Population Estimate (as of July 1) - 2014; Total - 100+
+est72015_age100plus,Population Estimate (as of July 1) - 2015; Total - 100+
+est72016_age100plus,Population Estimate (as of July 1) - 2016; Total - 100+
+est72017_age100plus,Population Estimate (as of July 1) - 2017; Total - 100+
+2010Census_medage,"April 1, 2010 - Census; Total - Median age (years)"
+estbase42010_medage,"April 1, 2010 - Estimates Base; Total - Median age (years)"
+est72010_medage,Population Estimate (as of July 1) - 2010; Total - Median age (years)
+est72011_medage,Population Estimate (as of July 1) - 2011; Total - Median age (years)
+est72012_medage,Population Estimate (as of July 1) - 2012; Total - Median age (years)
+est72013_medage,Population Estimate (as of July 1) - 2013; Total - Median age (years)
+est72014_medage,Population Estimate (as of July 1) - 2014; Total - Median age (years)
+est72015_medage,Population Estimate (as of July 1) - 2015; Total - Median age (years)
+est72016_medage,Population Estimate (as of July 1) - 2016; Total - Median age (years)
+est72017_medage,Population Estimate (as of July 1) - 2017; Total - Median age (years)
