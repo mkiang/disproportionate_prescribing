@@ -1,0 +1,28 @@
+---
+title: "System Information"
+author: "Mathew Kiang"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+To assist with reproducibility of our results, below is the session information used to generate our analyses.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, results='hide', echo=TRUE, message=FALSE, warning=FALSE, error=FALSE}
+source(here::here("code", "00_install_necessary_packages.R"))
+```
+
+
+## Using `sessioninfo::session_info()`
+```{r}
+sessioninfo::session_info()
+```
+
+
+## Using `sessionInfo()`
+```{r}
+sessionInfo()
+```

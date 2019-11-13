@@ -1,0 +1,34 @@
+---
+title: "Tabulate Opioid Data By State"
+author: "Mathew Kiang"
+date: "1/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, results='hide', warning=FALSE, message=FALSE, error=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+source(here("code", "table_utils.R"))
+```
+
+```{r}
+mme_summary_df <- read_csv(
+    here("data", 
+         "descriptives", 
+         "descriptives_mme_summaries.csv.xz")
+    )
+```
+
+## For all opioids
+```{r, results='asis'}
+make_table_mme_by_state(mme_summary_df, 
+                        w_x = 0, 
+                        ndc_type_x = "opioids", 
+                        prov_cat_x = "all_types", 
+                        table_type = "kable")
+```

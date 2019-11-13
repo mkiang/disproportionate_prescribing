@@ -1,0 +1,28 @@
+---
+title: "List of Optum Files"
+author: "Mathew Kiang"
+date: "07/16/2019"
+output: html_document
+---
+
+## Introduction
+
+Assuming you have all Optum files, the ones you will need are listed below along with their file size and various hashes for verification.
+
+```{r}
+## Imports ----
+suppressPackageStartupMessages(library(dplyr))
+library(googleCloudStorageR)
+
+## Authenticate on Google Cloud Platform ----
+googleAuthR::gar_gce_auth()
+
+## Get object list ----
+optum_objs <- gcs_list_objects("som-phs-basus-optum")
+```
+
+```{r}
+optum_objs %>% 
+    select(name, contentType, timeCreated, updated, size, md5Hash, crc32c) %>% 
+    knitr::kable()
+```

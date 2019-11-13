@@ -1,0 +1,90 @@
+---
+title: "Setting up Google Cloud Compute environment"
+author: "Mathew Kiang"
+date: "2/26/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+## Introduction
+
+To ensure patient confidentiality and comply with the data use agreement between Optum and Stanford, all data are securely stored on Stanford University's Center for Population Health Science Data Core. 
+
+We conducted all analyses was conducted using Google Cloud Compute (GCP) to ensure data never left this secure environment. Your computational environment and data use agreement with Optum may be different.
+
+Here, we just outline the fastest way to setup a Google Cloud Compute instance for our analyses in `R`.  
+
+## Before starting
+You need to setup your project name, default zone, and service account key. Follow the instructions outlined in this guide: https://cloudyr.github.io/googleComputeEngineR/articles/installation-and-authentication.html
+
+## Creating an instance
+Assuming you have access rights, you can now create a virtual machine instance.
+
+First, we load the `googleComputeEngineR` package and define constants.
+
+- `template` is the name of the Docker template we will be using. Do not change this.
+- `temp_name` is the name of your instance as you will see it in the GCP dashboard.
+- `username` is the username you will use to log into your RStudio Server session.
+- `password` is the associated password with your log in.
+- `vm_type` is the size of the instance you would like to run. 
+- `boot_size` is the size of the startup disk associated with your instance.
+
+```{r, eval=FALSE}
+library(googleComputeEngineR)
+
+template  <- "rstudio"
+temp_name <- "mk-rstudio"
+username  <- "mkiang"
+password  <- "averycomplicatedpassword"
+vm_type   <- "n1-highmem-32"
+boot_size <- 2048 
+```
+
+To initiate the instance, we just use the `gce_vm()` command and the constants we've already defined.
+```{r, eval=FALSE}
+rstudio_vm <-
+    gce_vm(
+        template = template,
+        name = temp_name,
+        username = username,
+        password = password,
+        predefined_type = vm_type,
+        disk_size_gb = boot_size
+    )
+```
+
+## Testing your SSH key-pair
+
+Once you've created your instance, you should run `gcloud ssh` at least one time in your terminal in order to generate an SSH key-pair and register it with your instance. See the [reference manual for details](https://cloud.google.com/sdk/gcloud/reference/compute/ssh).
+
+After you've generated an SSH key-pair, run:
+```{r, eval=FALSE}
+gce_ssh_setup(rstudio_vm,
+              username = username,
+              key.pub = "~/.ssh/google_compute_engine.pub",
+              key.private = "~/.ssh/google_compute_engine")
+```
+
+after replacing the `key.pub` and `key.private` parameters with the path to your public and private keys, respectively. 
+
+## Starting and stopping your instance
+
+You can start your instance at any time by using `gce_vm_start(rstudio_vm)` and
+you can stop your instance by using: `gce_vm_stop(rstudio_vm)`.
+
+Note that you will be bill for all hours your instance is running (regardless of whether or not you're actually using it) so don't forget to stop your instance.
+
+Once you've started your instance, find the public IP address using the GCP Compute dashboard or looking at `rstudio_vm`.
+
+## Authenticating Google Cloud *inside* your instance
+
+In order to access some GCP services within your instance (e.g., accessing files stored on Google Cloud storage), you may need to authenticate your instance. You can do so by using `googleAuthR::gar_gce_auth()`.
+
+## Concluding notes
+There are many platforms and many ways to run RStudio in the cloud. This is just the method we used and by no means are we suggesting it is the best. 
+
+Note that you can change both the size of your instance (e.g., into a smaller, and cheaper, virtual machine) and increase the size of your persistent disk *after* the initial creation. See the GCP documentation for details. 

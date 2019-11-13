@@ -1,0 +1,45 @@
+---
+title: "Summary of Proportion of Cancer Patients in Top 1%"
+author: "Mathew Kiang"
+date: "2/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(here)
+library(knitr)
+source(here("code", "utils.R"))
+```
+
+```{r}
+cancer_df <- read_csv(here("data", "proportion_cancer_dx.csv"))
+```
+
+```{r}
+cancer_df %>%
+    filter(
+        ndc_type %in% c(
+            # "alprazolam",
+            # "cyclobenzaprine",
+            # "gabapentin",
+            # "buspirone",
+            # "lorazepam",
+            # "dextroamphetamine",
+            # "methlyphenidate",
+            "benzos", 
+            "opioids",
+            "schii_opioids"
+        )
+    ) %>% 
+    categorize_ndc() %>% 
+    select(-ndc_type) %>% 
+    rename(Year = year) %>% 
+    spread(ndc_cat, prop_cancer_dx) %>% 
+    kable(format = "html", digits = 2)
+```
+

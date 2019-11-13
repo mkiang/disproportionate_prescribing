@@ -1,0 +1,96 @@
+---
+title: "Table S1 ACS vs Optum Age by Sex"
+author: "Mathew Kiang"
+date: "1/30/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(here)
+```
+
+```{r}
+pop_raw <-
+    read_csv(here("data_raw", 
+                  "PEP_2017_PEPSYASEXN",
+                  "PEP_2017_PEPSYASEXN.csv"))
+
+pop_long <- pop_raw %>%
+    select(sex = `Sex.display-label`, starts_with("est72017_")) %>%
+    slice(-1) %>%
+    select(-est72017_age999, -est72017_medage) %>%
+    gather(age_text, pop, est72017_age0:est72017_age100plus) %>%
+    mutate(age_text = gsub("est72017_", "", age_text),
+           pop = as.numeric(pop)) %>%
+    mutate(age = as.numeric(gsub("\\D", "", age_text))) %>%
+    select(-age_text)
+
+pop_long <- pop_long %>%
+    mutate(
+        age_grp = case_when(
+            between(age,  0, 18) ~ 0,
+            between(age, 18, 24) ~ 18,
+            between(age, 25, 34) ~ 25,
+            between(age, 35, 44) ~ 35,
+            between(age, 45, 54) ~ 45,
+            between(age, 55, 64) ~ 55,
+            between(age, 65, 1000) ~ 65
+        )
+    ) 
+
+pop_summary <- pop_long %>% 
+    filter(sex != "Both Sexes") %>% 
+    group_by(sex, age_grp) %>% 
+    summarize(n_acs = sum(pop)) %>% 
+    ungroup() %>% 
+    mutate(prop_acs = n_acs / sum(n_acs))
+```
+
+```{r}
+optum_df <- read_csv(here("data", 
+                          "descriptives", 
+                          "mbr_age_sex_count.csv"))
+```
+
+```{r}
+print_table <- pop_summary %>% 
+    left_join(
+        optum_df %>% 
+            filter(female != -1, !is.na(age_grp)) %>% 
+            group_by(female, age_grp) %>% 
+            summarize(pop = sum(n)) %>% 
+            ungroup() %>% 
+            mutate(sex = ifelse(female == 1, "Female", "Male")) %>% 
+            select(sex, age_grp, n_optum = pop) %>% 
+            mutate(prop_optum = n_optum / sum(n_optum))
+    ) %>% 
+    transmute(
+        sex = sex,
+        age_grp = factor(
+            age_grp, 
+            levels = c(0, 18, seq(25, 65, 10)), 
+            labels = c("<18", 
+                       "18-24", 
+                       "25-34",
+                       "35-44", 
+                       "45-54",
+                       "54-64",
+                       "65+")),
+        acs = sprintf("%0.1f (%s)", 
+                      round(prop_acs * 100, 1), 
+                      prettyNum(n_acs, big.mark = ",")),
+        optum = sprintf("%0.1f (%s)", 
+                        round(prop_optum * 100, 1), 
+                        prettyNum(n_optum, big.mark = ","))
+        ) 
+
+print_table %>% 
+    knitr::kable(., format = "html", 
+                 col.names = c("Sex", "Age Group", "% (N)", "% (N)")) %>% 
+    kableExtra::add_header_above(., c("", "", "ACS 2017", "Optum"))
+```

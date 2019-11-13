@@ -1,0 +1,88 @@
+---
+title: "CDC Guidelines"
+author: "Mathew Kiang"
+date: "7/29/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(here)
+library(DT)
+```
+
+```{r}
+cdc_guidelines <-
+    readr::read_csv(here::here("data", "ntile_cdc_guidelines.csv")) %>%
+    dplyr::filter(ndc_type == "opioids",
+           prov_state == "US",
+           prov_cat == "all_types",
+           !is.na(dea_ntile))
+```
+
+## Top 1% 
+
+```{r}
+cdc_guidelines %>% 
+    filter(dea_ntile == 1) %>% 
+    arrange(year) %>% 
+    select(year,
+           n_prescriptions:n_patients,
+           prop_days_sup_7, 
+           prop_mme_per_day_50) %>% 
+    knitr::kable(format = "html", digits = c(0, 0, 0, 0, 2, 2))
+```
+
+## Bottom 99%
+```{r}
+cdc_guidelines %>%
+    filter(prov_state == "US", 
+           prov_cat == "all_types", 
+           ndc_type == "opioids", 
+           dea_ntile > 1) %>%
+    transmute(
+        year = year, 
+        dea_ntile = dea_ntile, 
+        n_prescriptions = n_prescriptions, 
+        n_deanpi = n_deanpi, 
+        n_patients = n_patients, 
+        n_prov_over_7_days = n_deanpi * (prop_days_sup_7),
+        n_prov_over_50mme = n_deanpi * (prop_mme_per_day_50)) %>% 
+    group_by(year) %>% 
+    summarize(total_prov = sum(n_deanpi), 
+              prov_over_7_days = sum(n_prov_over_7_days), 
+              prov_over_50mme = sum(n_prov_over_50mme)) %>% 
+    mutate(prop_over_7_days = prov_over_7_days / total_prov, 
+           prop_over_50mme = prov_over_50mme / total_prov) %>% 
+    select(-prov_over_7_days, -prov_over_50mme) %>% 
+    knitr::kable(format = "html", digits = c(0, 0, 2, 2))
+```
+
+## All providers
+```{r}
+cdc_guidelines %>%
+    filter(prov_state == "US", 
+           prov_cat == "all_types", 
+           ndc_type == "opioids") %>%
+    transmute(
+        year = year, 
+        dea_ntile = dea_ntile, 
+        n_prescriptions = n_prescriptions, 
+        n_deanpi = n_deanpi, 
+        n_patients = n_patients, 
+        n_prov_over_7_days = n_deanpi * (prop_days_sup_7),
+        n_prov_over_50mme = n_deanpi * (prop_mme_per_day_50)) %>% 
+    group_by(year) %>% 
+    summarize(total_prov = sum(n_deanpi), 
+              prov_over_7_days = sum(n_prov_over_7_days), 
+              prov_over_50mme = sum(n_prov_over_50mme)) %>% 
+    mutate(prop_over_7_days = prov_over_7_days / total_prov, 
+           prop_over_50mme = prov_over_50mme / total_prov) %>% 
+    select(-prov_over_7_days, -prov_over_50mme) %>% 
+    knitr::kable(format = "html", digits = c(0, 0, 2, 2))
+```
+

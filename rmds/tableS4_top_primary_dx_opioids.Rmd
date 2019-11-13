@@ -1,0 +1,132 @@
+---
+title: "Summary of Primary Dx of Patients in Top 1%"
+author: "Mathew Kiang"
+date: "2/17/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, results='hide', warning=FALSE, message=FALSE, error=FALSE}
+library(tidyverse)
+library(here)
+library(knitr)
+source(here("code", "utils.R"))
+```
+
+```{r}
+primary_dx <- read_csv(here("data", "top_ntile_pt_primary_dx.csv"))
+```
+
+```{r}
+primary_dx <- primary_dx %>% 
+    categorize_ndc() %>% 
+    categorize_w() %>% 
+    categorize_prov_cat() %>% 
+    categorize_prov_state()
+```
+
+```{r}
+primary_dx_yearly <- primary_dx %>%
+    filter(!(ccs_desc %in% c(
+        "All primary diagnoses", "Missing diagnoses"
+    ))) %>%
+    group_by(w, year, ndc_type, prov_state, prov_cat) %>%
+    mutate(dx_rank = dense_rank(desc(n_primary_dx))) %>%
+    ungroup() %>%
+    mutate(desc_label = sprintf(
+        "%s (%0.2f / %i)",
+        ccs_desc_rename,
+        round(prop_primary_diag, 2),
+        n_primary_dx
+    )) 
+```
+
+```{r}
+primary_dx_yearly %>% 
+    filter(w == 0, 
+           ndc_type == "opioids", 
+           prov_state == "US", 
+           prov_cat == "all_types", 
+           dx_rank <= 5) %>% 
+    select(Rank = dx_rank, desc_label, year) %>% 
+    spread(year, desc_label) %>% 
+    kable(format = "html")
+```
+
+```{r}
+primary_dx_yearly %>% 
+    filter(w == 0, 
+           ndc_type == "opioids", 
+           prov_state == "US", 
+           prov_cat == "all_types", 
+           dx_rank <= 2 ) %>% 
+    select(Year = year, Rank = dx_rank, `CCS Description (proportion / N)` = desc_label) %>% 
+    arrange(Year, Rank) %>% 
+    kable(format = "html")
+```
+
+```{r}
+primary_dx_agg <- primary_dx %>%
+    group_by(
+        w,
+        ndc_type,
+        prov_state,
+        prov_cat,
+        ccs_desc_rename,
+        ndc_cat,
+        w_cat,
+        specialty_cat,
+        state_name,
+        state_cat,
+        name_cat,
+        lon_rank
+    ) %>%
+    select(-ccs_desc, -year) %>%
+    summarize_all(sum, na.rm = TRUE) %>%
+    ungroup()
+
+primary_dx_agg <- primary_dx_agg %>%
+    left_join(
+        primary_dx_agg %>%
+            select(
+                w,
+                ndc_type,
+                prov_state,
+                prov_cat,
+                ccs_desc_rename,
+                all_primary_dx = n_primary_dx
+            ) %>%
+            filter(ccs_desc_rename == "All primary diagnoses") %>%
+            select(-ccs_desc_rename)
+    ) %>%
+    group_by(w, ndc_type, prov_state, prov_cat) %>%
+    mutate(prop_primary_dx = n_primary_dx / all_primary_dx) %>% 
+    filter(!(ccs_desc_rename %in% c(
+        "All primary diagnoses", "Missing diagnoses"
+    ))) %>%
+    mutate(dx_rank = dense_rank(desc(n_primary_dx))) %>%
+    ungroup() %>%
+    mutate(desc_label = sprintf(
+        "%s (%0.2f / %s)",
+        ccs_desc_rename,
+        round(prop_primary_dx, 2),
+        prettyNum(n_primary_dx, big.mark = ",")
+    ))
+```
+
+```{r}
+primary_dx_agg %>%
+    filter(w == 0,
+           ndc_type == "opioids",
+           prov_state == "US",
+           prov_cat == "all_types",
+           dx_rank <= 10) %>%
+    arrange(dx_rank) %>% 
+    select(Rank = dx_rank, `CCS Description (proportion / N)` = desc_label) %>%
+    arrange(Rank) %>%
+    kable(format = "html")
+```
+
