@@ -52,6 +52,20 @@ for an example of how to set up a Google Cloud Compute instance. Lastly,
 details about exact package versions are available in
 [`./rmds/session_information.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_session_information.html).
 
+## Getting the data
+
+Before you can actually run any of the code or the Shiny apps, you need
+to download the data. They are too large for this repository and are
+kept on our Zenodo Repository. There are two ways to get the data:
+
+### Manually downloading the data
+
+TODO
+
+### Using our script
+
+TODO
+
 ## Project structure
 
   - `./apps/` contains the code needed to run the interactive
