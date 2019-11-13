@@ -43,14 +43,17 @@ This code is provided so that researchers who have established a data
 use agreement with Optum are be able to reproduce or extend our
 analyses. Our code is intended to be run on a Google Cloud Compute
 instance — modification will be necessary for other computing
-environments. See
-[`./rmds/misc_optum_files_used.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_optum_files_used.html)
-for a list of files used in our analyses as well as the MD5 hash to
-verify versions. See
-[`./rmds/misc_setting_up_GCP_instance.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_setting_up_GCP_instance.htmll)
-for an example of how to set up a Google Cloud Compute instance. Lastly,
-details about exact package versions are available in
-[`./rmds/session_information.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_session_information.html).
+environments.
+
+  - See
+    [`./rmds/misc_optum_files_used.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_optum_files_used.html)
+    for a list of files used in our analyses as well as the MD5 hash to
+    verify versions.
+  - See
+    [`./rmds/misc_setting_up_GCP_instance.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_setting_up_GCP_instance.html)
+    for an example of how to set up a Google Cloud Compute instance.
+  - Lastly, details about exact package versions are available in
+    [`./rmds/session_information.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_session_information.html).
 
 ## Getting the data
 
