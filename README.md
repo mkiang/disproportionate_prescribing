@@ -63,11 +63,31 @@ kept on our Zenodo Repository. There are two ways to get the data:
 
 ### Manually downloading the data
 
-TODO
+1.  Download the zip file via OSF <https://osf.io/mbcw7/>.
+2.  Move the zip file to the project root.
+3.  Unzip the file into the root, which should expand to `./data`.
 
-### Using our script
+### Downloading through `R`
 
-TODO
+1.  Run the `./code/00_download_public_data.R` file.
+
+This file contains the following code:
+
+    osf_file <- "https://osf.io/mbcw7/download"
+    temp_f <- tempfile(fileext = ".zip")
+    
+    download.file(
+        url = osf_file, 
+        destfile = temp_f
+    )
+    
+    unzip(temp_f, 
+          exdir = ".")
+    
+    source("./code/99_copy_files_to_shiny_app.R")
+
+This code will download the (zipped) data files, extract them to the
+correct location and then copy the files into the Shiny apps as needed.
 
 ## Project structure
 
