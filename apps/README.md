@@ -34,13 +34,26 @@ respository](https://mathewkiang.com/disproportionate_prescribing).
     in our paper. To run it for *all* drugs, you must run the app
     locally.
 
+<p align="center">
+
+<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/lorenz_app_sample.png" width="50%" />
+
+</p>
+
 2.  [**Prescribing patterns over
     time**](https://sanjaybasu.shinyapps.io/prescribing_over_time_app/):
     This application is an interactive version of Figure 2 in our paper.
     It shows the proportion of different drugs prescribed by the top 1%,
     5%, 10%, 25%, or 50% of providers from 2003 to 2017. It allows users
     to specify different sets of drugs, measures, states or provider
-    specialty, and level of trimming (i.e., sensitivity analyses).
+    specialty, and level of trimming (i.e., sensitivity
+analyses).
+
+<p align="center">
+
+<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/top_centile_prescribing_sample.png" width="50%" />
+
+</p>
 
 3.  [**Closer look at the top
     centile**](https://sanjaybasu.shinyapps.io/inequality_over_time_app/):
@@ -48,7 +61,14 @@ respository](https://mathewkiang.com/disproportionate_prescribing).
     the top centile of prescribers and across all providers at different
     levels of trimming and different drug types (Fig. S5). In addition,
     it shows the centile to centile transactions of prescribing patterns
-    for different years, drugs, and levels of trimming (Fig. 3).
+    for different years, drugs, and levels of trimming (Fig.
+3).
+
+<p align="center">
+
+<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/top_centile_app_sample.png" width="50%" />
+
+</p>
 
 4.  [**Measures of global inequality in
     prescribing**](https://sanjaybasu.shinyapps.io/top_centile_app/):
@@ -61,6 +81,12 @@ respository](https://mathewkiang.com/disproportionate_prescribing).
     provider specialty, and level of trimming (i.e., sensitivity
     analyses).
 
+<p align="center">
+
+<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/ineq_app_sample.png" width="50%" />
+
+</p>
+
 5.  [**Prescribing of the top providers relative to the median
     providers**](https://sanjaybasu.shinyapps.io/ntile_relative_app/):
     This application is an interactive version of Supplemental Materials
@@ -69,4 +95,11 @@ respository](https://mathewkiang.com/disproportionate_prescribing).
     compared the prescribing patterns of the top 25 centile groups
     relative to the median (50th) centile group. It allows users to
     specify different sets of drugs, measures, states or provider
-    specialty, and level of trimming (i.e., sensitivity analyses).
+    specialty, and level of trimming (i.e., sensitivity
+analyses).
+
+<p align="center">
+
+<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/rel_prescribing_app_sample.png" width="50%" />
+
+</p>
