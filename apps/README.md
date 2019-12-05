@@ -36,7 +36,7 @@ respository](https://mathewkiang.com/disproportionate_prescribing).
 
 <p align="center">
 
-<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/lorenz_app_sample.png" width="50%" />
+<img src="./../misc/lorenz_app_sample.png" width="50%" />
 
 </p>
 
@@ -46,12 +46,11 @@ respository](https://mathewkiang.com/disproportionate_prescribing).
     It shows the proportion of different drugs prescribed by the top 1%,
     5%, 10%, 25%, or 50% of providers from 2003 to 2017. It allows users
     to specify different sets of drugs, measures, states or provider
-    specialty, and level of trimming (i.e., sensitivity
-analyses).
+    specialty, and level of trimming (i.e., sensitivity analyses).
 
 <p align="center">
 
-<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/top_centile_prescribing_sample.png" width="50%" />
+<img src="./../misc/top_centile_prescribing_sample.png" width="50%" />
 
 </p>
 
@@ -61,12 +60,11 @@ analyses).
     the top centile of prescribers and across all providers at different
     levels of trimming and different drug types (Fig. S5). In addition,
     it shows the centile to centile transactions of prescribing patterns
-    for different years, drugs, and levels of trimming (Fig.
-3).
+    for different years, drugs, and levels of trimming (Fig. 3).
 
 <p align="center">
 
-<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/top_centile_app_sample.png" width="50%" />
+<img src="./../misc/top_centile_app_sample.png" width="50%" />
 
 </p>
 
@@ -83,7 +81,7 @@ analyses).
 
 <p align="center">
 
-<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/ineq_app_sample.png" width="50%" />
+<img src="./../misc/ineq_app_sample.png" width="50%" />
 
 </p>
 
@@ -95,11 +93,10 @@ analyses).
     compared the prescribing patterns of the top 25 centile groups
     relative to the median (50th) centile group. It allows users to
     specify different sets of drugs, measures, states or provider
-    specialty, and level of trimming (i.e., sensitivity
-analyses).
+    specialty, and level of trimming (i.e., sensitivity analyses).
 
 <p align="center">
 
-<img src="/Users/mvk/Dropbox/Projects_Active/disproportionate_prescribing/misc/rel_prescribing_app_sample.png" width="50%" />
+<img src="./../misc/rel_prescribing_app_sample.png" width="50%" />
 
 </p>
