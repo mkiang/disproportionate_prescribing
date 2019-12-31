@@ -65,17 +65,16 @@ centcat_panel <- function() {
             )
         ),
         hr(),
-        # Table row ----
-        fluidRow(
-            column(
-                width = 10,
-                offset = 1, 
-                align = "center",
-                # h3("Mortality Rate and APC Table"),
-                DT::dataTableOutput("centcat_table")
-            )
-        ),
-        hr(), 
+        # fluidRow(
+        #     column(
+        #         width = 10,
+        #         offset = 1, 
+        #         align = "center",
+        #         # h3("Mortality Rate and APC Table"),
+        #         DT::dataTableOutput("centcat_table")
+        #     )
+        # ),
+        # hr(), 
         ## Plotting section ----
         fluidRow(
             h3("Provider to patient transactions"), 
@@ -99,15 +98,15 @@ centcat_panel <- function() {
             )
         ),
         hr(),
-        fluidRow(
-            column(
-                width = 10,
-                offset = 1, 
-                align = "center", 
-                DT::dataTableOutput("transactions_table")
-            )
-        ),
-        hr(),
+        # fluidRow(
+        #     column(
+        #         width = 10,
+        #         offset = 1, 
+        #         align = "center", 
+        #         DT::dataTableOutput("transactions_table")
+        #     )
+        # ),
+        # hr(),
         ## Plotting section ----
         fluidRow(
             h3("Overlap of the top centile over time"),
