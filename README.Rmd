@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 ```
-# Disproportionate opioid prescribing among United States medical providers, 2003–2017: An observational study
+# Opioid prescribing among United States medical providers, 2003-17: retrospective, observational study
 
 <p align = "center">
 ```{r echo=FALSE, out.width = "550px", fig.align='center'}

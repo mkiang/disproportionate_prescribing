@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Disproportionate opioid prescribing among United States medical providers, 2003–2017: An observational study
+# Opioid prescribing among United States medical providers, 2003-17: retrospective, observational study
 
 <p align="center">
 
