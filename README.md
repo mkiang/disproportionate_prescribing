@@ -42,11 +42,11 @@ the individual-level or prescription-level data**. Further, we are
 required to suppress all results based on fewer than ten providers or
 ten patients.~~
 
-**Update about data (12/31/19):** Due to restrictions of our data use
-agreement, we are not able to share aggregated data and summary results
-in text files publicly. We are working with the data providers to find
-an acceptable way to provide restricted access to these data to other
-allow researchers.
+**Update about data (12/31/19):** Due to restrictions on our data use
+agreement, we are not able to publicly share aggregated data and summary
+results in text format at this time. We are working with the data
+providers to find an acceptable way to give other researchers restricted
+access to these data. Updates will be provided here.
 
 This code is provided so that researchers who have established a data
 use agreement with Optum are be able to reproduce or extend our
@@ -66,7 +66,8 @@ environments.
 
 ## Getting the public data
 
-See update above regarding restrictions on sharing data publicly.
+See update above (12/31/19) regarding restrictions on sharing data
+publicly.
 
 ## Project structure
 

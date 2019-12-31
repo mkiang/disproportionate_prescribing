@@ -65,6 +65,7 @@ centcat_panel <- function() {
             )
         ),
         hr(),
+        # # Table row ----
         # fluidRow(
         #     column(
         #         width = 10,
