@@ -6,7 +6,7 @@ R.utils::sourceDirectory(here::here("code"), modifiedOnly = FALSE)
 ## Textual constants ----
 ## Paper title
 paper_title <-
-  "Disproportionate opioid prescribing among United States medical providers, 2003–2017: An observational study"
+  "Opioid prescribing among United States medical providers, 2003-17: retrospective, observational study"
 
 footer_tag  <- HTML(
   "Created in <a href='https://shiny.rstudio.com/'>Shiny</a> by
@@ -21,12 +21,11 @@ footer_tag  <- HTML(
 more_info <- list(
   h4("More information"),
   HTML(
-    "For more information, please see our article,
-        available doi: (TODO: INSERT LINK). More information about this
-        companion app or the other companion apps is available at
-        <a href='https://github.com/mkiang/disproportionate_prescribing/apps'>the
-        repo README page</a>.
-
+    "For more information, please see our article on the BMJ website (<a href='https://www.doi.org/10.1136/bmj.l6968'>doi: 10.1136/bmj.l6968</a>). More information about this 
+        companion app or the other companion apps is available at 
+        <a href='https://github.com/mkiang/disproportionate_prescribing/apps'>the 
+        repo README page</a>. 
+        
         All source code is available at the
           <a href='https://github.com/mkiang/disproportionate_prescribing'>
           associated Github repository</a>. "
