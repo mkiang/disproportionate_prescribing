@@ -1,13 +1,16 @@
 
 ## Introduction
 
-This is a companion application for our paper, *Disproportionate opioid
-prescribing among United States medical providers, 2003–2017: An
-observational study*. The full citation for this paper is:
+This is a list of companion applications for our paper, [*Opioid
+prescribing among United States medical providers, 2003-17:
+retrospective, observational
+study*](https://www.doi.org/10.1136/bmj.l6968). The full citation for
+this paper is:
 
-> Kiang MV, Humphreys KN, Cullen MR, and Basu S. Disproportionate opioid
-> prescribing among United States medical providers, 2003–2017: An
-> observational study. Forthcoming.
+> Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing among
+> United States medical providers, 2003-17: retrospective, observational
+> study. BMJ 2020. doi:
+> [10.1136/bmj.l6968](https://www.doi.org/10.1136/bmj.l6968)
 
 For interested readers, we have created several interactive results
 viewers. These online applications allow readers to change the

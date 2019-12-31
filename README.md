@@ -11,17 +11,19 @@
 
 ## Introduction
 
-Reproducible code for our paper, [*Disproportionate opioid prescribing
-among United States medical providers, 2003–2017: An observational
-study*](ADD%20A%20LINK), which uses prescription and medical claims from
+Reproducible code for our paper, [*Opioid prescribing among United
+States medical providers, 2003-17: retrospective, observational
+study*](https://www.doi.org/10.1136/bmj.l6968), which uses prescription
+and medical claims from
 [Optum](https://www.optum.com/solutions/data-analytics/data.html) — a
 large, national database of mostly private insurance claims — to
 characterize trends in opioid prescribing compared to several other
 drugs. The full citation is:
 
-> Kiang MV, Humphreys KN, Cullen MR, and Basu S. Disproportionate opioid
-> prescribing among United States medical providers, 2003–2017: An
-> observational study. Forthcoming.
+> Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing among
+> United States medical providers, 2003-17: retrospective, observational
+> study. BMJ 2020. doi:
+> [10.1136/bmj.l6968](https://www.doi.org/10.1136/bmj.l6968)
 
 We have created [**several interactive results
 viewers**](https://github.com/mkiang/disproportionate_prescribing/tree/master/apps)
@@ -34,10 +36,17 @@ page](https://github.com/mkiang/disproportionate_prescribing/issues).
 
 ### Note about reproducibility
 
-When possible, we provide aggregated data and summary results; however,
-in compliance with our data use agreement, **we cannot share the
-individual-level or prescription-level data**. Further, we suppress all
-results based on fewer than ten providers or ten patients.
+~~When possible, we provide aggregated data and summary results;
+however, in compliance with our data use agreement, **we cannot share
+the individual-level or prescription-level data**. Further, we are
+required to suppress all results based on fewer than ten providers or
+ten patients.~~
+
+**Update about data (12/31/19):** Due to restrictions of our data use
+agreement, we are not able to share aggregated data and summary results
+in text files publicly. We are working with the data providers to find
+an acceptable way to provide restricted access to these data to other
+allow researchers.
 
 This code is provided so that researchers who have established a data
 use agreement with Optum are be able to reproduce or extend our
@@ -55,39 +64,9 @@ environments.
   - Lastly, details about exact package versions are available in
     [`./rmds/session_information.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_session_information.html).
 
-## Getting the data
+## Getting the public data
 
-Before you can actually run any of the code or the Shiny apps, you need
-to download the data. They are too large for this repository and are
-kept on our Zenodo Repository. There are two ways to get the data:
-
-### Manually downloading the data
-
-1.  Download the zip file via OSF <https://osf.io/mbcw7/>.
-2.  Move the zip file to the project root.
-3.  Unzip the file into the root, which should expand to `./data`.
-
-### Downloading through `R`
-
-1.  Run the `./code/00_download_public_data.R` file.
-
-This file contains the following code:
-
-    osf_file <- "https://osf.io/mbcw7/download"
-    temp_f <- tempfile(fileext = ".zip")
-    
-    download.file(
-        url = osf_file, 
-        destfile = temp_f
-    )
-    
-    unzip(temp_f, 
-          exdir = ".")
-    
-    source("./code/99_copy_files_to_shiny_app.R")
-
-This code will download the (zipped) data files, extract them to the
-correct location and then copy the files into the Shiny apps as needed.
+See update above regarding restrictions on sharing data publicly.
 
 ## Project structure
 
@@ -141,6 +120,8 @@ generated in previous code files). Below, I describe the overarching
 objective of the files. Within each code file, there is a short
 description of the objective of that file.
 
+  - `00_download_public_data.R`: Downloads and copies the public use
+    data file. You only need to run this once.
   - `00_install_necessary_packages.R`: Our compute environment is based
     on a docker image, which is wiped clean with every restart. This
     helper script simply (re-)installs the necessary packages to run the
@@ -165,7 +146,7 @@ description of the objective of that file.
     Then tabulate the proportion of top centile patients who have
     history of cancer diagnosis as well as recent primary diagnoses.
   - `25` to `28` and `99`: Additional files that are not strictly
-    necessary.
+    necessary for the main manuscript.
   - `fig`\*: These files generate the figures used in the manuscript and
     supplemental materials.
 
