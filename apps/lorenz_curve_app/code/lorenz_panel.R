@@ -71,19 +71,19 @@ lorenz_panel <- function() {
                        width = "auto")
         )), 
         hr(),
-        br(),
-        
-        # Table row ----
-        fluidRow(
-            column(
-                width = 10,
-                offset = 1, 
-                align = "center",
-                # h3("Mortality Rate and APC Table"),
-                DT::dataTableOutput("lorenz_panel_table")
-            )
-        ),
-        hr(), 
+        # br(),
+        # 
+        # # Table row ----
+        # fluidRow(
+        #     column(
+        #         width = 10,
+        #         offset = 1, 
+        #         align = "center",
+        #         # h3("Mortality Rate and APC Table"),
+        #         DT::dataTableOutput("lorenz_panel_table")
+        #     )
+        # ),
+        # hr(), 
         ## Footer ----
         fluidRow(column(
             width = 12,

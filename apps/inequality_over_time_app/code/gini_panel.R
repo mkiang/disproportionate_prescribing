@@ -69,14 +69,14 @@ gini_panel <- function() {
             plotOutput("topP_gini", width = "auto")
         )),
         hr(),
-        fluidRow(column(
-            width = 10,
-            offset = 1,
-            align = "center",
-            DT::dataTableOutput("topP_ineq_table")
-        )),
-        hr(),
-        
+        # fluidRow(column(
+        #     width = 10,
+        #     offset = 1,
+        #     align = "center",
+        #     DT::dataTableOutput("topP_ineq_table")
+        # )),
+        # hr(),
+        # 
         ## Footer ----
         fluidRow(
             p(), 

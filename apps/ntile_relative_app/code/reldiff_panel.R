@@ -74,17 +74,17 @@ reldiff_panel <- function() {
             )
         ),
         hr(),
-        # Table row ----
-        fluidRow(
-            column(
-                width = 10,
-                offset = 1, 
-                align = "center",
-                # h3("Mortality Rate and APC Table"),
-                DT::dataTableOutput("reldiff_panel_table")
-            )
-        ),
-        hr(),
+        # # Table row ----
+        # fluidRow(
+        #     column(
+        #         width = 10,
+        #         offset = 1, 
+        #         align = "center",
+        #         # h3("Mortality Rate and APC Table"),
+        #         DT::dataTableOutput("reldiff_panel_table")
+        #     )
+        # ),
+        # hr(),
         
         ## Footer ----
         fluidRow(column(

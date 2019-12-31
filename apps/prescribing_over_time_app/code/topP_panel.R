@@ -70,16 +70,16 @@ topP_panel <- function() {
         )),
         hr(),
 
-        # Table row ----
-        fluidRow(
-            column(
-                width = 10,
-                offset = 1,
-                align = "center",
-                DT::dataTableOutput("topP_table")
-            )
-        ),
-        hr(), 
+        # # Table row ----
+        # fluidRow(
+        #     column(
+        #         width = 10,
+        #         offset = 1,
+        #         align = "center",
+        #         DT::dataTableOutput("topP_table")
+        #     )
+        # ),
+        # hr(),
         
         ## Footer ----
         fluidRow(
