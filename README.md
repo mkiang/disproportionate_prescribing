@@ -11,8 +11,8 @@
 
 ## Introduction
 
-Reproducible code for our paper, [*Opioid prescribing among United
-States medical providers, 2003-17: retrospective, observational
+Reproducible code for our paper, [*Opioid prescribing among medical
+providers in the United States, 2003-17: retrospective, observational
 study*](https://www.doi.org/10.1136/bmj.l6968), which uses prescription
 and medical claims from
 [Optum](https://www.optum.com/solutions/data-analytics/data.html) — a
@@ -21,8 +21,8 @@ characterize trends in opioid prescribing compared to several other
 drugs. The full citation is:
 
 > Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing among
-> United States medical providers, 2003-17: retrospective, observational
-> study. BMJ 2020. doi:
+> medical providers in the United States, 2003-17: retrospective,
+> observational study. BMJ 2020;368:l6968. doi:
 > [10.1136/bmj.l6968](https://www.doi.org/10.1136/bmj.l6968)
 
 We have created [**several interactive results
