@@ -6,7 +6,7 @@ R.utils::sourceDirectory(here::here("code"), modifiedOnly = FALSE)
 ## Textual constants ----
 ## Paper title
 paper_title <-
-  "Disproportionate opioid prescribing among United States medical providers, 2003–2017: An observational study"
+  "Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing among medical providers in the United States, 2003-17: retrospective, observational study. BMJ 2020;368:l6968. doi: 10.1136/bmj.l6968"
 
 footer_tag  <- HTML(
   "Created in <a href='https://shiny.rstudio.com/'>Shiny</a> by
@@ -21,12 +21,11 @@ footer_tag  <- HTML(
 more_info <- list(
   h4("More information"),
   HTML(
-    "For more information, please see our article,
-        available doi: (TODO: INSERT LINK). More information about this
-        companion app or the other companion apps is available at
-        <a href='https://github.com/mkiang/disproportionate_prescribing/apps'>the
-        repo README page</a>.
-
+    "For more information, please see our article on the BMJ website (<a href='https://www.doi.org/10.1136/bmj.l6968'>doi: 10.1136/bmj.l6968</a>). More information about this 
+        companion app or the other companion apps is available at 
+        <a href='https://github.com/mkiang/disproportionate_prescribing/apps'>the 
+        repo README page</a>. 
+        
         All source code is available at the
           <a href='https://github.com/mkiang/disproportionate_prescribing'>
           associated Github repository</a>. "
@@ -74,24 +73,6 @@ sb_tag <-
   ))
 
 ## Helper functions ----
-return_drug_list_mini <- function() {
-  return_drug_list()[!(names(return_drug_list()) %in% c(
-    "Warfarin",
-    "Simvastatin",
-    "Metformin",
-    "Levothyroxine",
-    "Citalopram",
-    "Temazepam",
-    "Triazolam",
-    "Chlordiazepoxide",
-    "Oxazepam",
-    "Methylphenidate", 
-    "Alprazolam", 
-    "Buspirone", 
-    "Gabapentin"
-  ))]
-}
-
 info_panel <- function() {
   column(width = 4,
          wellPanel(
@@ -112,13 +93,13 @@ trim_selector <- function(value_id,
       "Top 1.0% of providers" = 0.010,
       "Top 2.5% of providers" = 0.025,
       "Top 5.0% of providers" = 0.050,
-      "Top 10% of providers"  = 0.100,
-      "<3 perscriptions/year" = 3,
-      "<6 prescriptions/year" = 6,
-      "<12 prescriptions/year" = 12,
-      "<24 prescriptions/year" = 24,
-      "<50 prescriptions/year" = 50,
-      "<100 prescriptions/year" = 100,
+      "Top 10% of providers"  = 0.100, 
+      "<3 perscriptions/year" = 3, 
+      "<6 prescriptions/year" = 6, 
+      "<12 prescriptions/year" = 12, 
+      "<24 prescriptions/year" = 24, 
+      "<50 prescriptions/year" = 50, 
+      "<100 prescriptions/year" = 100, 
       "<200 prescriptions/year" = 200
     ),
     selected = selected_x
@@ -132,9 +113,9 @@ p1_selector <- function(value_id,
     label = "Top percentile of providers:",
     choices = list(
       "Top 1%" = "0.01",
-      "Top 5%" = "0.05",
-      "Top 10%" = "0.10",
-      "Top 25%" = "0.25",
+      "Top 5%" = "0.05", 
+      "Top 10%" = "0.10", 
+      "Top 25%" = "0.25", 
       "Top 50%" = "0.50"
     ),
     selected = selected_x
@@ -144,74 +125,70 @@ p1_selector <- function(value_id,
 meas_selector <-
   function(value_id,
            selected_x = "mme") {
-    selectInput(
-      value_id,
-      label = "Measure:",
-      choices = list(
-        "Dose" = "mme",
-        "Dose per day" = "mme_per_day",
-        "Dose per patient" = "mme_per_pt",
-        "Dose per prescription" = "mme_per_prescription",
-        "Number of prescriptions" = "n_prescriptions"
-      ),
-      selected = selected_x
-    )
-  }
+             selectInput(
+               value_id,
+               label = "Measure:",
+               choices = list(
+                 "Dose" = "mme",
+                 "Dose per day" = "mme_per_day",
+                 "Dose per patient" = "mme_per_pt",
+                 "Dose per prescription" = "mme_per_prescription",
+                 "Number of prescriptions" = "n_prescriptions"
+               ),
+               selected = selected_x
+             )
+           }
 
-meas_checkboxes <-
-  function(value_id,
-           selected_x = c("mme", "n_prescriptions")) {
-    checkboxGroupInput(
-      value_id,
-      label = "Measure:",
-      choices = list(
-        "Dose" = "mme",
-        "Dose per day" = "mme_per_day",
-        "Dose per patient" = "mme_per_pt",
-        "Dose per prescription" = "mme_per_prescription",
-        "Number of prescriptions" = "n_prescriptions"
-      ),
-      selected = selected_x
-    )
-  }
-
-jaccard_checkbox <- function(value_id,
-                             value_x = FALSE) {
-  checkboxInput(value_id,
-                label = "Use Jaccard index:",
-                value = value_x)
+meas_checkboxes <- 
+  function(value_id, selected_x = c("mme", "n_prescriptions")) {
+  checkboxGroupInput(
+    value_id,
+    label = "Measure:",
+    choices = list(
+      "Dose" = "mme",
+      "Dose per day" = "mme_per_day",
+      "Dose per patient" = "mme_per_pt",
+      "Dose per prescription" = "mme_per_prescription",
+      "Number of prescriptions" = "n_prescriptions"
+    ),
+    selected = selected_x
+  )
 }
 
 ndc_checkboxes <- function(value_id,
                            selected_x = c("opioids", "benzos")) {
-  checkboxGroupInput(value_id,
-                     label = "Drug Types:",
-                     choices = return_drug_list(),
-                     selected = selected_x)
+  checkboxGroupInput(
+    value_id,
+    label = "Drug Types:",
+    choices = return_drug_list(),
+    selected = selected_x
+  )
 }
 
 ndc_selector <- function(value_id,
                          selected_x = "opioids") {
-  selectInput(value_id,
-              label = "Drug Types:",
-              choices = return_drug_list(),
-              selected = selected_x)
+  selectInput(
+    value_id,
+    label = "Drug Types:",
+    choices = return_drug_list(), 
+    selected = selected_x
+  )
 }
 
 ndc_selector_sub <- function(value_id,
-                             selected_x = "opioids") {
+                         selected_x = "opioids") {
   selectInput(
     value_id,
     label = "Drug Types:",
     choices = list(
       "Opioids" = "opioids",
-      "Alprazolam" = "alprazolam",
-      "Cyclobenzaprine" = "cyclobenzaprine",
-      "Gabapentin" = "gabapentin",
-      "Buspirone" = "buspirone",
-      "Lorazepam" = "lorazepam",
-      "Dextroamphetamine" = "dextroamphetamine",
-      "Methylphenidate" = "methlyphenidate",
+      "Alprazolam" = "alprazolam", 
+      "Cyclobenzaprine" = "cyclobenzaprine", 
+      "Gabapentin" = "gabapentin", 
+      "Buspirone" = "buspirone", 
+      "Lorazepam" = "lorazepam", 
+      "Dextroamphetamine" = "dextroamphetamine", 
+      "Methylphenidate" = "methlyphenidate", 
       "Schedule II opioids" = "schii_opioids"
     ),
     selected = selected_x
@@ -219,47 +196,51 @@ ndc_selector_sub <- function(value_id,
 }
 
 ndc_picker <- function(value_id,
-                       selected_x = c("opioids",
-                                      "benzos"),
+                       selected_x = c(
+                         "opioids",
+                         "benzos"
+                       ),
                        options_x = list(`max-options` = 8)) {
+  
   pickerInput(
     value_id,
     label = "Drug Types:",
     choices = return_drug_list(),
-    selected = selected_x,
-    multiple = TRUE,
+    selected = selected_x, 
+    multiple = TRUE, 
     options = options_x
   )
 }
 
 ndc_picker_sub <- function(value_id,
-                           selected_x = c(
-                             "opioids",
-                             "alprazolam",
-                             "cyclobenzaprine",
-                             "gabapentin",
-                             "buspirone",
-                             "lorazepam",
-                             "dextroamphetamine",
-                             "methlyphenidate"
-                           ),
-                           options_x = list(`max-options` = 8)) {
+                       selected_x = c(
+                         "opioids",
+                         "alprazolam",
+                         "cyclobenzaprine",
+                         "gabapentin",
+                         "buspirone",
+                         "lorazepam",
+                         "dextroamphetamine",
+                         "methlyphenidate"
+                       ),
+                       options_x = list(`max-options` = 8)) {
+  
   pickerInput(
     value_id,
     label = "Drug Types:",
     choices = list(
       "Opioids" = "opioids",
-      "Alprazolam" = "alprazolam",
-      "Cyclobenzaprine" = "cyclobenzaprine",
-      "Gabapentin" = "gabapentin",
-      "Buspirone" = "buspirone",
-      "Lorazepam" = "lorazepam",
-      "Dextroamphetamine" = "dextroamphetamine",
-      "Methylphenidate" = "methlyphenidate",
+      "Alprazolam" = "alprazolam", 
+      "Cyclobenzaprine" = "cyclobenzaprine", 
+      "Gabapentin" = "gabapentin", 
+      "Buspirone" = "buspirone", 
+      "Lorazepam" = "lorazepam", 
+      "Dextroamphetamine" = "dextroamphetamine", 
+      "Methylphenidate" = "methlyphenidate", 
       "Schedule II opioids" = "schii_opioids"
     ),
-    selected = selected_x,
-    multiple = TRUE,
+    selected = selected_x, 
+    multiple = TRUE, 
     options = options_x
   )
 }
@@ -461,7 +442,9 @@ ineq_selector <-
         "Ricci-Schutz coefficient" = "ricci_schutz",
         "Atkinson index" = "atkinson",
         "Theil entropy" = "theil",
-        "Generalized entropy" = "entropy"
+        "Generalized entropy" = "entropy"#,
+        # "Herfindahl-Hirschman (concentration)" = "herfindahl",
+        # "Rosenbluth index (concerntration)" = "rosenbluth"
       ),
       selected = selected_x
     )

@@ -6,7 +6,7 @@ R.utils::sourceDirectory(here::here("code"), modifiedOnly = FALSE)
 ## Textual constants ----
 ## Paper title
 paper_title <-
-  "Opioid prescribing among United States medical providers, 2003-17: retrospective, observational study"
+  "Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing among medical providers in the United States, 2003-17: retrospective, observational study. BMJ 2020;368:l6968. doi: 10.1136/bmj.l6968"
 
 footer_tag  <- HTML(
   "Created in <a href='https://shiny.rstudio.com/'>Shiny</a> by
