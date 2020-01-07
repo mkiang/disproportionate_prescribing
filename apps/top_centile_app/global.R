@@ -470,3 +470,10 @@ year_slider <- function(value_id) {
     sep = ""
   )
 }
+
+jaccard_checkbox <- function(value_id,
+                             value_x = FALSE) {
+  checkboxInput(value_id,
+                label = "Use Jaccard index:",
+                value = value_x)
+}
