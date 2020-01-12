@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Opioid prescribing among United States medical providers, 2003-17: retrospective, observational study
+# Opioid prescribing patterns among United States medical providers, 2003-17: retrospective, observational study
 
 <p align="center">
 
@@ -11,18 +11,18 @@
 
 ## Introduction
 
-Reproducible code for our paper, [*Opioid prescribing among medical
-providers in the United States, 2003-17: retrospective, observational
-study*](https://www.doi.org/10.1136/bmj.l6968), which uses prescription
-and medical claims from
+Reproducible code for our paper, [*Opioid prescribing patterns among
+medical providers in the United States, 2003-17: retrospective,
+observational study*](https://www.doi.org/10.1136/bmj.l6968), which uses
+prescription and medical claims from
 [Optum](https://www.optum.com/solutions/data-analytics/data.html) — a
 large, national database of mostly private insurance claims — to
 characterize trends in opioid prescribing compared to several other
 drugs. The full citation is:
 
-> Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing among
-> medical providers in the United States, 2003-17: retrospective,
-> observational study. BMJ 2020;368:l6968. doi:
+> Kiang MV, Humphreys K, Cullen MR, and Basu S. Opioid prescribing
+> patterns among medical providers in the United States, 2003-17:
+> retrospective, observational study. BMJ 2020;368:l6968. doi:
 > [10.1136/bmj.l6968](https://www.doi.org/10.1136/bmj.l6968)
 
 We have created [**several interactive results
@@ -36,17 +36,18 @@ page](https://github.com/mkiang/disproportionate_prescribing/issues).
 
 ### Note about reproducibility
 
-~~When possible, we provide aggregated data and summary results;
-however, in compliance with our data use agreement, **we cannot share
-the individual-level or prescription-level data**. Further, we are
-required to suppress all results based on fewer than ten providers or
-ten patients.~~
-
-**Update about data (12/31/19):** Due to restrictions on our data use
+**Update about data (01/09/19):** Due to restrictions on our data use
 agreement, we are not able to publicly share aggregated data and summary
-results in text format at this time. We are working with the data
-providers to find an acceptable way to give other researchers restricted
-access to these data. Updates will be provided here.
+results. However, we have provided mechanisms for interested readers to
+get both (1) the replication data necessary to reproduce all tables and
+plots as well as run the Shiny applications locally; and (2) access to
+the raw data to reproduce the entire pipeline. The replication data
+(with aggregated data and summary results) are available without charge.
+The raw data are available for a fee. *Both require approval from an
+Optum representative.* These data are available through the [Stanford
+Center for Population Health Sciences Data
+Core](http://phsdata.stanford.edu/). Please submit a request to
+phsdatacore`at`stanford`dot`edu.
 
 This code is provided so that researchers who have established a data
 use agreement with Optum are be able to reproduce or extend our
@@ -64,10 +65,12 @@ environments.
   - Lastly, details about exact package versions are available in
     [`./rmds/session_information.html`](http://htmlpreview.github.io/?https://github.com/mkiang/disproportionate_prescribing/blob/master/rmds/misc_session_information.html).
 
-## Getting the public data
+## Setting up
 
-See update above (12/31/19) regarding restrictions on sharing data
-publicly.
+Once you have received the replication data (via the mechanisms outlined
+above), unzip the data to the project root (`./data/`). If you need to
+run the Shiny applications, you should also run the
+`./code/99_copy_files_to_shiny_app.R` file.
 
 ## Project structure
 
