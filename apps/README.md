@@ -68,7 +68,7 @@ respository](https://github.com/mkiang/disproportionate_prescribing).
 </p>
 
 3.  [**Closer look at the top
-    centile**](https://sanjaybasu.shinyapps.io/inequality_over_time_app/):
+    centile**](https://sanjaybasu.shinyapps.io/top_centile_app/):
     This application allows for looking at the provider specialties in
     the top centile of prescribers and across all providers at different
     levels of trimming and different drug types (Fig. S5). In addition,
@@ -82,7 +82,7 @@ respository](https://github.com/mkiang/disproportionate_prescribing).
 </p>
 
 4.  [**Measures of global inequality in
-    prescribing**](https://sanjaybasu.shinyapps.io/top_centile_app/):
+    prescribing**](https://sanjaybasu.shinyapps.io/inequality_over_time_app/):
     This application is an interactive version of the Gini analysis in
     our paper (Supplemental Materials). We measured the disproportionate
     level of prescribing using several metrics of inequality. In our
